@@ -1,0 +1,15 @@
+
+What the different operators do:
++ = a + b
+- = a - b
+* = a * b
+/ = a // b
+^ = a ^ b
+| = a | b
+& = a & b
+% = a % b
+f = Returns the 1st number
+o = Returns the 2nd number
+x = Returns the 2nd number
+t = Returns the 1st number
+r = Returns the 2nd number

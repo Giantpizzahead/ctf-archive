@@ -1,0 +1,89 @@
+Disassembly of section .text:
+
+00000450 <__x86.get_pc_thunk.bx>:
+ 450:	8b 1c 24             	mov    ebx,DWORD PTR [esp]
+ 453:	c3                   	ret    
+ 454:	66 90                	xchg   ax,ax
+ 456:	66 90                	xchg   ax,ax
+ 458:	66 90                	xchg   ax,ax
+ 45a:	66 90                	xchg   ax,ax
+ 45c:	66 90                	xchg   ax,ax
+ 45e:	66 90                	xchg   ax,ax
+
+00000549 <__x86.get_pc_thunk.dx>:
+ 549:	8b 14 24             	mov    edx,DWORD PTR [esp]
+ 54c:	c3                   	ret    
+
+0000054d <doNothing>:
+ 54d:	55                   	push   ebp
+ 54e:	89 e5                	mov    ebp,esp
+ 550:	83 ec 10             	sub    esp,0x10
+ 553:	e8 a2 00 00 00       	call   5fa <__x86.get_pc_thunk.ax>
+ 558:	05 7c 1a 00 00       	add    eax,0x1a7c
+ 55d:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+ 560:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+ 563:	90                   	nop
+ 564:	c9                   	leave  
+ 565:	c3                   	ret    
+
+00000566 <main>:
+ 566:	8d 4c 24 04          	lea    ecx,[esp+0x4]
+ 56a:	83 e4 f0             	and    esp,0xfffffff0
+ 56d:	ff 71 fc             	push   DWORD PTR [ecx-0x4]
+ 570:	55                   	push   ebp
+ 571:	89 e5                	mov    ebp,esp
+ 573:	53                   	push   ebx
+ 574:	51                   	push   ecx
+ 575:	83 ec 10             	sub    esp,0x10
+ 578:	e8 d3 fe ff ff       	call   450 <__x86.get_pc_thunk.bx>
+ 57d:	81 c3 57 1a 00 00    	add    ebx,0x1a57
+ 583:	c7 45 ec 03 00 00 00 	mov    DWORD PTR [ebp-0x14],0x3
+ 58a:	c7 45 f0 21 00 00 00 	mov    DWORD PTR [ebp-0x10],0x21
+ 591:	83 ec 08             	sub    esp,0x8
+ 594:	6a 00                	push   0x0
+ 596:	6a ff                	push   0xffffffff
+ 598:	ff 75 f0             	push   DWORD PTR [ebp-0x10]
+ 59b:	ff 75 ec             	push   DWORD PTR [ebp-0x14]
+ 59e:	6a 04                	push   0x4
+ 5a0:	6a 00                	push   0x0
+ 5a2:	e8 29 fe ff ff       	call   3d0 <mmap@plt>
+ # Calls mmap with start = 0, length = 4 bytes, prot = 3, flags = 21, fd = ffffffff, and offset = 0.
+ # Prot = Exec and Read
+ # Flag =
+ 5a7:	83 c4 20             	add    esp,0x20
+ 5aa:	89 45 f4             	mov    added_memory_pointer,eax
+ 5ad:	8b 45 f4             	mov    eax,added_memory_pointer
+ 5b0:	c7 00 00 ca 9a 3b    	mov    DWORD PTR [eax],0x3b9aca00
+ # The mmap area now contains the value 0x3b9aca00.
+ 5b6:	e8 35 fe ff ff       	call   3f0 <fork@plt>
+ 5bb:	e8 30 fe ff ff       	call   3f0 <fork@plt>
+ 5c0:	e8 2b fe ff ff       	call   3f0 <fork@plt>
+ 5c5:	e8 26 fe ff ff       	call   3f0 <fork@plt>
+ 5ca:	8b 45 f4             	mov    eax,added_memory_pointer
+ 5cd:	8b 00                	mov    eax,DWORD PTR [eax]
+ # Gets the value at the mmap area.
+ 5cf:	8d 90 d2 02 96 49    	lea    edx,[eax+0x499602d2]
+ 5d5:	8b 45 f4             	mov    eax,added_memory_pointer
+ 5d8:	89 10                	mov    DWORD PTR [eax],edx
+ # Value at mapped area now equal to 0x8530ccd2.
+ # Since fork continues execution at the place it was forked, the place
+ # in memory will be added to 16 times, so the answer is 0x3b9aca00 + (16 * 0x499602d2).
+ # Answer: -721750240
+ 5da:	8b 45 f4             	mov    eax,added_memory_pointer
+ 5dd:	8b 00                	mov    eax,DWORD PTR [eax]
+ 5df:	83 ec 0c             	sub    esp,0xc
+ 5e2:	50                   	push   eax
+ 5e3:	e8 65 ff ff ff       	call   54d <doNothing>
+ 5e8:	83 c4 10             	add    esp,0x10
+ 5eb:	b8 00 00 00 00       	mov    eax,0x0
+ 5f0:	8d 65 f8             	lea    esp,[ebp-0x8]
+ 5f3:	59                   	pop    ecx
+ 5f4:	5b                   	pop    ebx
+ 5f5:	5d                   	pop    ebp
+ 5f6:	8d 61 fc             	lea    esp,[ecx-0x4]
+ 5f9:	c3                   	ret    
+
+000005fa <__x86.get_pc_thunk.ax>:
+ 5fa:	8b 04 24             	mov    eax,DWORD PTR [esp]
+ 5fd:	c3                   	ret    
+ 5fe:	66 90                	xchg   ax,ax

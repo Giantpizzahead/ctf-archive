@@ -1,0 +1,8 @@
+package fib;
+
+public class fib {
+	int[] fibs;
+	public static void main(String[] args) {
+		
+	}
+}

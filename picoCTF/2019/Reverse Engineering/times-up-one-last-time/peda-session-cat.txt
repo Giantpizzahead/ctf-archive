@@ -1,0 +1,4 @@
+break time
+disable $bpnum
+break *0x8000f20
+

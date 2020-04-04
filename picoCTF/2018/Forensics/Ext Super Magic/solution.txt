@@ -1,0 +1,1 @@
+Fix the superblock magic number (AKA the ext2 file signature) by manually writing it in with hexedit. Then, use debugfs to navigate the now-fixed filesystem, and dump flag.jpg to find the flag.

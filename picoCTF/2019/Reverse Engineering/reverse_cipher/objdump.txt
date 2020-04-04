@@ -1,0 +1,120 @@
+64-bit instructions
+
+0000000000001185 <main>:
+    1185:	55                   	push   rbp
+    1186:	48 89 e5             	mov    rbp,rsp
+    1189:	48 83 ec 50          	sub    rsp,0x50
+    118d:	48 8d 35 74 0e 00 00 	lea    rsi,[rip+0xe74]        # 2008 <_IO_stdin_used+0x8>
+    1194:	48 8d 3d 6f 0e 00 00 	lea    rdi,[rip+0xe6f]        # 200a <_IO_stdin_used+0xa>
+    119b:	e8 d0 fe ff ff       	call   1070 <fopen@plt>
+    11a0:	48 89 45 e8          	mov    INPUT_FILE,rax
+    11a4:	48 8d 35 68 0e 00 00 	lea    rsi,[rip+0xe68]        # 2013 <_IO_stdin_used+0x13>
+    11ab:	48 8d 3d 63 0e 00 00 	lea    rdi,[rip+0xe63]        # 2015 <_IO_stdin_used+0x15>
+    11b2:	e8 b9 fe ff ff       	call   1070 <fopen@plt>
+    11b7:	48 89 45 e0          	mov    OUTPUT_FILE,rax
+    11bb:	48 83 7d e8 00       	cmp    INPUT_FILE,0x0
+    11c0:	75 0c                	jne    11ce <main+0x49>
+    11c2:	48 8d 3d 57 0e 00 00 	lea    rdi,[rip+0xe57]        # 2020 <_IO_stdin_used+0x20>
+    11c9:	e8 62 fe ff ff       	call   1030 <puts@plt>
+    11ce:	48 83 7d e0 00       	cmp    OUTPUT_FILE,0x0
+    11d3:	75 0c                	jne    11e1 <main+0x5c>
+    11d5:	48 8d 3d 7e 0e 00 00 	lea    rdi,[rip+0xe7e]        # 205a <_IO_stdin_used+0x5a>
+    11dc:	e8 4f fe ff ff       	call   1030 <puts@plt>
+    11e1:	48 8b 55 e8          	mov    rdx,INPUT_FILE
+    11e5:	48 8d 45 b0          	lea    rax,[rbp-0x50]
+    11e9:	48 89 d1             	mov    rcx,rdx
+    11ec:	ba 01 00 00 00       	mov    edx,0x1
+    11f1:	be 18 00 00 00       	mov    esi,0x18
+    11f6:	48 89 c7             	mov    rdi,rax
+    11f9:	e8 42 fe ff ff       	call   1040 <fread@plt>              
+	# Reads 24 bytes from INPUT_FILE, saving it in [rbp-0x50].
+    11fe:	89 45 dc             	mov    DWORD PTR [rbp-0x24],eax
+    1201:	83 7d dc 00          	cmp    DWORD PTR [rbp-0x24],0x0
+    1205:	7f 0a                	jg     1211 <main+0x8c>
+    1207:	bf 00 00 00 00       	mov    edi,0x0
+    120c:	e8 6f fe ff ff       	call   1080 <exit@plt>
+    1211:	c7 45 f8 00 00 00 00 	mov    variable_i,0x0
+    1218:	eb 23                	jmp    123d <main+0xb8>
+	# MAIN ENCRYPTION PART 1 - Just copies the plaintext picoCTF{ to rev_this.
+    121a:	8b 45 f8             	mov    eax,variable_i
+    121d:	48 98                	cdqe   
+    121f:	0f b6 44 05 b0       	movzx  eax,BYTE PTR [rbp+rax*1-0x50]
+	# Iterates through the characters of the input file (indexes 0-7).
+    1224:	88 45 ff             	mov    character_holder,al
+    1227:	0f be 45 ff          	movsx  eax,character_holder
+    122b:	48 8b 55 e0          	mov    rdx,OUTPUT_FILE
+    122f:	48 89 d6             	mov    rsi,rdx
+    1232:	89 c7                	mov    edi,eax
+    1234:	e8 27 fe ff ff       	call   1060 <fputc@plt>
+    1239:	83 45 f8 01          	add    variable_i,0x1
+    123d:	83 7d f8 07          	cmp    variable_i,0x7
+    1241:	7e d7                	jle    121a <main+0x95>
+	# Encrypts the first 8 characters by copying them in plaintext. (picoCTF{)
+	# MAIN ENCRYPTION PART 2
+    1243:	c7 45 f4 08 00 00 00 	mov    variable_a,0x8
+    124a:	eb 43                	jmp    128f <main+0x10a>
+    124c:	8b 45 f4             	mov    eax,variable_a
+    124f:	48 98                	cdqe   
+    1251:	0f b6 44 05 b0       	movzx  eax,BYTE PTR [rbp+rax*1-0x50]
+	# Iterates through characters 8-22 of the input file.
+    1256:	88 45 ff             	mov    character_holder,al
+    1259:	8b 45 f4             	mov    eax,variable_a
+    125c:	83 e0 01             	and    eax,0x1
+	# Makes it so that eax is either 0 or 1.
+    125f:	85 c0                	test   eax,eax
+	# Tests if eax is equal to... itself? This should always be true, right?
+	# It probably never jumps here.
+	# EDIT: It doesn't jump if a is even, but it jumps if a is odd. Don't know why.
+	
+	# Ooooooohhh k, I get it after looking it up. Test basically ANDs the two arguments
+	# given to it, and sets the ZF (Zero Flag) if the result of that AND was 1.
+	# JNE only jumps if the ZF is set to 0. So, if eax is 0, then 0 AND 0 is 0, so the ZF
+	# would be 1, and JNE wouldn't jump. Othewise, 1 AND 1 is 1, so the ZF is 1, so JNE jumps.
+	# Weird. JNE is a misnomer...
+	
+	# Well, just goes to show; always read the official documentation. You might find out that
+	# everything in assembler language makes NO SENSE WHATSOEVER
+    1261:	75 0c                	jne    126f <main+0xea>
+    1263:	0f b6 45 ff          	movzx  eax,character_holder
+    1267:	83 c0 05             	add    eax,0x5
+    126a:	88 45 ff             	mov    character_holder,al
+	# Increases the character value of the current character by 5 if a is even.
+    126d:	eb 0a                	jmp    1279 <main+0xf4>
+    126f:	0f b6 45 ff          	movzx  eax,character_holder
+    1273:	83 e8 02             	sub    eax,0x2
+    1276:	88 45 ff             	mov    character_holder,al
+	# Subtracts the character value of the current character by 2 if a is odd.
+    1279:	0f be 45 ff          	movsx  eax,character_holder
+    127d:	48 8b 55 e0          	mov    rdx,OUTPUT_FILE
+    1281:	48 89 d6             	mov    rsi,rdx
+    1284:	89 c7                	mov    edi,eax
+    1286:	e8 d5 fd ff ff       	call   1060 <fputc@plt>
+	# Writes the newly 'encoded' character to the output file.
+    128b:	83 45 f4 01          	add    variable_a,0x1
+    128f:	83 7d f4 16          	cmp    variable_a,0x16
+    1293:	7e b7                	jle    124c <main+0xc7>
+	# Encrypts characters 8-22 (15 characters) of the flag.
+    1295:	0f b6 45 c7          	movzx  eax,BYTE PTR [rbp-0x39]
+    1299:	88 45 ff             	mov    character_holder,al
+    129c:	0f be 45 ff          	movsx  eax,character_holder
+    12a0:	48 8b 55 e0          	mov    rdx,OUTPUT_FILE
+    12a4:	48 89 d6             	mov    rsi,rdx
+    12a7:	89 c7                	mov    edi,eax
+    12a9:	e8 b2 fd ff ff       	call   1060 <fputc@plt>
+	# The } at the end is copied to the output file.
+    12ae:	48 8b 45 e0          	mov    rax,OUTPUT_FILE
+    12b2:	48 89 c7             	mov    rdi,rax
+    12b5:	e8 96 fd ff ff       	call   1050 <fclose@plt>
+    12ba:	48 8b 45 e8          	mov    rax,INPUT_FILE
+    12be:	48 89 c7             	mov    rdi,rax
+    12c1:	e8 8a fd ff ff       	call   1050 <fclose@plt>
+    12c6:	90                   	nop
+    12c7:	c9                   	leave  
+    12c8:	c3                   	ret    
+    12c9:	0f 1f 80 00 00 00 00 	nop    DWORD PTR [rax+0x0]
+	
+	# So if what I did is right, you just shift every character back by 5. Right?
+	# Ok, apparently testing eax against eax is checking whether it's odd or even.
+	# Weirrrrrrrd. Oh well. I figured it out, so that's something. :)
+	# Original: picoCTF{w1{1wq83k055j5f}
+	# Decoded:  picoCTF{r3v3rs35f207e7a}

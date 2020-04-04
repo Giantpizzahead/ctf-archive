@@ -1,0 +1,3 @@
+0x15ccbe<0xa4>26ff8eac6e6f742e15c4afbf0cc8bdbb61726c794bd6b4a709d2b5
+Ì¾¤&ÿ¬not.Ä¯¿È½»arlyKÖ´§	Òµ
+picoCTF{not.particularly.silly}

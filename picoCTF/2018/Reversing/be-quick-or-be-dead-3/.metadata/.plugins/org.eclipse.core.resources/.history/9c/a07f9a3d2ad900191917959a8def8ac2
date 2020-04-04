@@ -1,0 +1,20 @@
+package fib2;
+
+public class fib2 {
+	static int[] fibs;
+	static int NUM_FIB = 0x10;
+	
+	public static void main(String[] args) {
+		fibs = new int[NUM_FIB + 1];
+		for (int i = 1; i < 6; i++) {
+			fibs[i] = 0x2345 + (int) Math.pow(i, 2);
+		}
+		
+		for (int i = 6; i < NUM_FIB + 1; i++) {
+			fibs[i] = fibs[i-1] + fibs[i-2] + fibs[i-3] + fibs[i-4] + fibs[i-5];
+		}
+		System.out.println(fibs[NUM_FIB]);
+	}
+	
+	// Result: -227977497
+}

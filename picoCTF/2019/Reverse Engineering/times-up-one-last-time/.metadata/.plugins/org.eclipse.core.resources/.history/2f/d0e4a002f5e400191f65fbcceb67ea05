@@ -1,0 +1,120 @@
+import java.util.*;
+
+/**
+What the different operators do:
++ = a + b
+- = a - b
+* = a * b
+/ = a // b
+^ = a ^ b
+| = a | b
+& = a & b
+% = a % b
+f = Returns the 1st number
+o = Returns the 2nd number
+x = Returns the 2nd number
+t = Returns the 1st number
+r = Returns the 2nd number
+
+Make sure to handle parentheses. Each number is surrounded by parentheses also.
+
+This is now a programming problem... Good luck! :)
+ */
+
+public class solver {
+	String problem;
+	
+	solver() {
+		System.out.println("Please enter the problem:");
+		Scanner s = new Scanner(System.in);
+		problem = s.nextLine();
+		s.close();
+		
+		long answer = evaluateExpr();
+		System.out.println("The answer is:\n" + answer);
+	}
+	
+	/**
+	 * Evaluates the whole expression using a stack.
+	 */
+	long evaluateExpr() {
+		Stack<Token> eval = new Stack<Token>();
+		char c;
+		Token num1, op, num2;
+		for (int i = 0; i < problem.length(); i++) {
+			c = problem.charAt(i);
+			if (c == ')') {
+				// Solve this part of the expression
+				num2 = eval.pop();
+				op = eval.pop();
+				if (op.type == '(') {
+					// Only one number; just evaluate that number
+					eval.pop();  // Pops parentheses
+					eval.add(new Token(num2.value));
+				} else {
+					num1 = eval.pop();
+					eval.pop();  // Pops parentheses
+					// Evaluate the operation
+					eval.add(new Token(operation(num1.value, num2.value, op.type)));
+					System.out.println((num1.value) + " " + (op.type) + " " + (num2.value) + " = " + eval.peek().value);
+				}
+			} else if ('0' <= c && c <= '9') {
+				// Parsing a number
+				int numStartI = i;
+				while ('0' <= c && c <= '9') {
+					i++;
+					c = problem.charAt(i);
+				}
+				eval.add(new Token(Long.parseLong(problem.substring(numStartI, i))));
+				System.out.println("Parsed number " + eval.peek().value);
+				i--;
+			} else {
+				// Parsing beginning parentheses or operation
+				eval.add(new Token(c));
+			}
+		}
+		
+		// There should only be one token number at the end
+		return eval.pop().value;
+	}
+	
+	/**
+	 * Evaluates the given operation based on the rules stated above.
+	 */
+	long operation(long a, long b, char op) {
+		switch (op) {
+		case '+': return a + b;
+		case '-': return a - b;
+		case '*': return a * b;
+		case '/': return a / b;
+		case '^': return a ^ b;
+		case '|': return a | b;
+		case '&': return a & b;
+		case '%': return a % b;
+		case 'f': return a;
+		case 't': return a;
+		case 'o': return b;
+		case 'x': return b;
+		case 'r': return b;
+		default: return -1;
+		}
+	}
+	
+	public static void main(String[] args) {
+		new solver();
+	}
+	
+	class Token {
+		char type;
+		long value;
+		
+		public Token(char type) {
+			this.type = type;
+		}
+		
+		public Token(long value) {
+			this.type = 'i';
+			this.value = value;
+		}
+	}
+}

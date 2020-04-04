@@ -1,0 +1,1 @@
+Mount the .dd disc image file using OSFMount (Windows application). Then, run Recuva on the whole disk to find theflag.jpg, and recover it to get the flag.

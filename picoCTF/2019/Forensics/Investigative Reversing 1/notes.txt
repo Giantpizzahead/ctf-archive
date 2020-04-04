@@ -1,0 +1,29 @@
+The flag is 26 characters long.
+
+1 char in mystery
+1 char in mystery2
+3 char in mystery3
+
+Characters 6-9: Put into mystery
+
+One extra unnecessary character put into mystery2
+
+Characters 10-14: Put into mystery3
+
+Characters 15-25: Put into mystery
+
+Final lengths:
+mystery = 16
+mystery2 = 2
+mystery3 = 8
+
+mystery2 is useless, so ignore that.
+
+Contents:
+mystery = CF{An1_8aa498d9}
+mystery3 = icT0tha_
+
+mystery = F{An1_8aa498d9}
+mystery3 = 0tha_
+
+picoCTF{An0tha_1_8aa498d9}
