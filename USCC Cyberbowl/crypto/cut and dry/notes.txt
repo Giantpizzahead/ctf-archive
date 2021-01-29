@@ -1,0 +1,33 @@
+Name=AAAA&Candidate=Frank Paws\x06\x06\x06\x06\x06\0x6
+
+Name=AAAAAAAAAAAFrank Paws\x06\x06\x06\x06\x06\0x6Frank Paws\x06\x06\x06\x06\x06\0x6Frank Paws\x06\x06\x06\x06\x06\0x6
+
+1
+AAAAAAAAAAAFrank Paws\x06\x06\x06\x06\x06\0x6Frank Paws\x06\x06\x06\x06\x06\0x6Frank Paws\x06\x06\x06\x06\x06\0x6
+hello
+3
+
+99474592694a21b54b71e4e5d7fda303
+dec2f5da75f5b51e2958de4dbc7d61d5 - This is it!
+dec2f5da75f5b51e2958de4dbc7d61d5
+dbbc89fd80e1556db1726d37c16523c5
+cc96fcc2b30ff9a896b562237f13b7ff
+
+Gen ballet with wanted block
+
+Name=&Candidate=Kittens Corleone
+
+fe3b582359dc269cdd682fca0876ead1dec2f5da75f5b51e2958de4dbc7d61d5
+
+REAL TIME
+
+Wanted block:
+63971249296a65572437dac290a90c08
+
+Empty:
+105d02bf4ef2854ebf415eb41b5611b9
+
+Target:
+105d02bf4ef2854ebf415eb41b5611b963971249296a65572437dac290a90c08
+
+USCC{why_15_ECB_s0_1ns3cur3}

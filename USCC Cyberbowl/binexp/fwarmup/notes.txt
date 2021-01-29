@@ -1,0 +1,17 @@
+Flag is at 0x804a060
+
+Need to follow pointer at 0xffffd060
+
+Start at 0xffffcf70
+
+Each one progresses 4 bytes, starts at 0xffffcf70, however, each %d moves back 2 bytes
+
+Starts from 0xffffc74 (printing values)
+
+240 -> 120 %ds followed by one %s
+
+3 before reaching the same place, then 4 every time
+
+4 and 4 - 5 and 8
+
+%x%x%x%x%x%x%x%x%s..<address>

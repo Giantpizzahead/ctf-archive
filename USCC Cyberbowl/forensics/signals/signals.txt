@@ -1,0 +1,28 @@
+Flags:
+
+@ = J or letters to follow
+# = Numerals to follow
+
+@USC C@UN #10 @RS #1 @GNB #3 @AR #3 @R
+
+USCC{JUN10RS1GNB3AR3R}
+
+So this forensics challenge is off to a strange start. I have no clue how to reassemble this, if it's even right, back to what it should be lol. Series of semaphore signals in a video.
+Forensics > Signals
+RFC4824
+Based on Navy semaphore signs and some obscure RFC
+(PAUSE) JUSC CJUN WAKJ RSWA JGNB (#) CJAR (#) CJR (PAUSE)
+0x09 ACK SUN 0x02
+0x02 0x09 ACK 0x0D
+NAK 0x00 0x0A 0x09
+FEN SUN NAK 0x00
+0x09 0x06 0x0D 0x01
+    (#) 0x02 0x09 0x00 
+    FEN (#) 0x02 0x09
+    FEN
+            or
+    0x02 0x09 0x00 FEN
+    0x02 0x09 FEN
+The # signs are "Numerical Sign" (LH high; RH up), and I'm not sure what they represent. It's not documented in the RFC.
+https://www.anbg.gov.au/flags/semaphore.html
+https://tools.ietf.org/html/rfc4824

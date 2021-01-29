@@ -1,0 +1,51 @@
+0x4f365 execve("/bin/sh", rsp+0x40, environ)
+constraints:
+  rsp & 0xf == 0
+  rcx == NULL
+
+0x4f3c2 execve("/bin/sh", rsp+0x40, environ)
+constraints:
+  [rsp+0x40] == NULL
+
+0xe58b8 execve("/bin/sh", [rbp-0x88], [rbp-0x70])
+constraints:
+  [[rbp-0x88]] == NULL || [rbp-0x88] == NULL
+  [[rbp-0x70]] == NULL || [rbp-0x70] == NULL
+
+0xe58bf execve("/bin/sh", r10, [rbp-0x70])
+constraints:
+  [r10] == NULL || r10 == NULL
+  [[rbp-0x70]] == NULL || [rbp-0x70] == NULL
+
+0xe58c3 execve("/bin/sh", r10, rdx)
+constraints:
+  [r10] == NULL || r10 == NULL
+  [rdx] == NULL || rdx == NULL
+
+0x10a45c execve("/bin/sh", rsp+0x70, environ)
+constraints:
+  [rsp+0x70] == NULL
+
+0x10a468 execve("/bin/sh", rsi, [rax])
+constraints:
+  [rsi] == NULL || rsi == NULL
+  [[rax]] == NULL || [rax] == NULL
+
+0x0000000000400787
+0x7ffff79e4000 + 0x4f365
+0x7ffff79e4000 + 0x4f3c2
+0x7ffff79e4000 + 0x10a45c
+
+7ffff7a333c2
+
+7ffff7aee45c
+
+0x7ffff7a33365
+
+0x000000000040096d (return)
+
+to
+
+7ffff7aee45c
+
+0x00000000004009cd : pop rsp ; pop r13 ; pop r14 ; pop r15 ; ret

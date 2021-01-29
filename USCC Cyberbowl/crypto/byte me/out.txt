@@ -1,0 +1,4 @@
+The security implications of ballot marking devices should be further studied. This calls for multi-disciplined research looking into the various aspects of the election process from integrity and security to usability and reliability. Current and proposed next-generation ballot marking devices have not been designed with security considerations in mind. They open the door for various methods to attack the election process. In the simplest end are denial-of-service attacks and attacks to compromise the secrecy of the ballot.
+USCC{s1ngl3_byt3_x0r_15_n0t_v3ry_s3cur3}
+
+XOR with key c9

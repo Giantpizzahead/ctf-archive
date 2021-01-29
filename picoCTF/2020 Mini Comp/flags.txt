@@ -1,0 +1,10 @@
+Nothing Up My Sleeve
+Flag: picoCTF{c0ngr4ts_0n_y0ur_$@|\|1-|-L|}
+
+Web Gauntlet
+Round 1: admin'--
+Round 2: admin'/*
+Round 3: admin'/*
+Round 4: ad'||'min'/*
+Round 5: ad'||'min'/*
+picoCTF{y0u_m4d3_1t_96486d415c04a1abbbcf3a2ebe1f4d02}

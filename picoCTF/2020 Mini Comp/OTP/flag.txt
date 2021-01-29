@@ -1,0 +1,32 @@
+790ce176acf7c2b277040687b23e185b2bb0d0fcc1939bf782db10c1210218dc4b2b3c931a5c2f04ad5aa711d04175920aa0
+
+Characters must be from 0x30 to 0x39 or 0x60 to 0x66
+So must be hexadecimal
+
+Adds the last encrypted character value to the current one, then takes only last 4 bits of that result.
+
+Key length is 100
+
+Target = adpjkoadapekldmpbjhjhbaghlfldbhjdalgnbeedheenfoeddabpmdnliokcahomdphbcleipfgibjdcgmjcmadaomiakpdjcni
+
+Jumble converts number in following form:
+0, 0
+1, 2
+2, 4
+3, 6
+4, 8
+5, a (10)
+6, c (12)
+7, e (14)
+8, 11 (17)
+9, 13 (19)
+a, 15 (21)
+b, 17 (23)
+c, 19 (25)
+d, 1b (27)
+e, 1d (29)
+f, 1f (31)
+
+Flag = 09658219efa384c9147175f3825347315eddb290f2e0c4c3f0e87eb57e3647bb7b6458cc2b381c45f23ec529e77645a23cdd
+
+picoCTF{cust0m_jumbl3s_4r3nt_4_g0Od_1d3A_db877006}
