@@ -1,0 +1,1 @@
+picoCTF{this_is_the_flag_yay}

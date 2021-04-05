@@ -1,0 +1,9 @@
+GDB main function is at 0x555555559960
+Our string is at 0x5555557a0bf0, not encoded
+
+3 args:
+rdi=Return location, rsi=Text location, edx=[0,1,2,3]
+
+First time, encrypted is at 0x7fffffffdbe8
+
+After decryption, at 0x555555559ce8

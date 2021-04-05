@@ -1,0 +1,24 @@
+
+First, note is padded to multiple of 8 with null bytes
+
+Then, each block is encrypted individually, 8 characters per block
+
+For each block:
+
+	Convert plaintext into hex number, store into result
+
+	For each round:
+
+		Every round uses a different part of the key, each part is 8 characters long
+
+		XOR the result with the current key
+
+		Convert result to binary, fill unused right space with zeros
+
+		Then reverse the whole thing, and reconvert to an int
+
+		Multiply result with key_odd (key if already odd, else key+1), modulo by 1 << 64
+		Multiply can be thought of as a bunch of shifts and adds, must be odd
+		So it ends up being a bunch of shifts and adds, no subtracts
+
+	Finish by converting result into hex, fill unused right space with zeros

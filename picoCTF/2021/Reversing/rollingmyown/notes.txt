@@ -1,0 +1,54 @@
+GDB main: 0x555555554b6a
+
+Data at 0x7fffffffdda0: GpLaMjEWpVOjnnmkRGiledp6Mvcezxls
+
+With input of A*20 (anything after 16 chars is ignored):
+
+Data at 0x7fffffffde10: AAAAGpLaMjEWAAAApVOjnnmkAAAARGiledp6AAAAMvcezxls
+
+(4 of ours + 8 of theirs, repeated 4 times)
+
+In encrypt function:
+
+Outer for loop goes through 4 blocks... maybe each block is indepedent?
+
+For each block (4 of ours + 8 of theirs), encrypt using MD5 hash, store at 0x7fffffffdd30
+
+1st hash for input AAAABBBBCCCCDDDD
+0xa6e4c4f2	0x4c82896e	0x049c2944	0xaa168cc0
+
+The second for loop goes through 16 bytes of hash and moves it to 0x00005555557576b0
+
+After return, we have 4 indepedently hashed blocks of length 16, starting at 0x5555557576b0
+
+When calling, it picks out specific parts of the hashes, not the whole hash
+
+Picks out a 4 byte part of each of the hashes, 1st instructions = 1st hash/block, 2nd instructions = 2nd hash/block, etc.
+
+Calling run at 0x555555554e12
+
+With D1v1 as start of pass:
+0x48	0x89	0xfe	0x48	0xba	0x02	0x61	0x9c
+0x98	0xd0	0xd3	0x87	0x62	0x78	0xec	0xd5
+   0x7ffff7ffb000:	mov    rsi,rdi
+   0x7ffff7ffb003:	movabs rdx,0x6287d3d0989c6102
+   0x7ffff7ffb00d:	js     0x7ffff7ffaffb
+   0x7ffff7ffb00f:	(bad)  
+
+1st block gets substring at [8, 11]
+2nd block gets substring at [2, 5]
+3rd block gets substring at [7, 10]
+4th block gets substring at [1, 4]
+
+Maybe want some code like:
+mov rsi, rdi
+movabs rdi, 0x7B3DC26F1
+call rsi
+
+0:  48 89 fe                mov    rsi,rdi
+3:  48 bf f1 26 dc b3 07    movabs rdi,0x7b3dc26f1
+a:  00 00 00
+d:  ff d6                   call   rsi
+
+mov rsi, rdi is already fixed
+call rsi is almost certainly there -> last block has 0xff 0xd6

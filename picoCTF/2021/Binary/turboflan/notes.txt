@@ -1,0 +1,141 @@
+JIT setProp() function
+[marking 0x0565082119f5 <JSFunction setProp (sfi = 0x56508210f69)> for optimized recompilation, reason: small function]
+[compiling method 0x0565082119f5 <JSFunction setProp (sfi = 0x56508210f69)> (target TURBOFAN) using TurboFan]
+[marking 0x0565082117d9 <JSFunction (sfi = 0x56508210db1)> for optimized recompilation, reason: hot and stable]
+[compiling method 0x0565082117d9 <JSFunction (sfi = 0x56508210db1)> (target TURBOFAN) using TurboFan OSR]
+[optimizing 0x0565082117d9 <JSFunction (sfi = 0x56508210db1)> (target TURBOFAN) - took 22.202, 54.932, 2.508 ms]
+[optimizing 0x0565082119f5 <JSFunction setProp (sfi = 0x56508210f69)> (target TURBOFAN) - took 15.271, 61.973, 1.255 ms]
+[completed optimizing 0x0565082119f5 <JSFunction setProp (sfi = 0x56508210f69)> (target TURBOFAN)]
+[bailout (kind: deopt-soft, reason: Insufficient type feedback for construct): begin. deoptimizing 0x0565082117d9 <JSFunction (sfi = 0x56508210db1)>, opt id 1, bytecode offset 161, deopt exit 3, FP to SP delta 120, caller SP 0x7fffffffd1a8, pc 0x056500084239]
+DebugPrint: 0x56508085989: [JS_OBJECT_TYPE]
+ - map: 0x056508245ac1 <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x056508202eb9 <Object map = 0x565082421b9>
+ - elements: 0x05650804222d <FixedArray[0]> [HOLEY_ELEMENTS]
+ - properties: 0x05650804222d <FixedArray[0]>
+ - All own properties (excluding elements): {
+    0x56508210c45: [String] in OldSpace: #p1: 0x0565080859d5 <HeapNumber 1.1> (const data field 0), location: in-object
+    0x56508210c55: [String] in OldSpace: #p2: 0x056508085a0d <HeapNumber 2.2> (const data field 1), location: in-object
+    0x56508210c65: [String] in OldSpace: #p3: 0x056508085a4d <HeapNumber 3.3> (const data field 2), location: in-object
+    0x56508210c75: [String] in OldSpace: #p4: 0x056508085a9d <HeapNumber 4.4> (const data field 3), location: in-object
+    0x56508210c85: [String] in OldSpace: #p5: 0x056508085af5 <HeapNumber 5.5> (const data field 4), location: in-object
+    0x56508210c95: [String] in OldSpace: #p6: 0x056508085b5d <HeapNumber 6.6> (const data field 5), location: in-object
+    0x56508210ca5: [String] in OldSpace: #p7: 0x056508085bcd <HeapNumber 7.7> (const data field 6), location: in-object
+    0x56508210cb5: [String] in OldSpace: #p8: 0x056508085c4d <HeapNumber 4919.0> (data field 7), location: in-object
+ }
+0x56508245ac1: [Map]
+ - type: JS_OBJECT_TYPE
+ - instance size: 44
+ - inobject properties: 8
+ - elements kind: HOLEY_ELEMENTS
+ - unused property fields: 0
+ - enum length: invalid
+ - stable_map
+ - back pointer: 0x056508245a99 <Map(HOLEY_ELEMENTS)>
+ - prototype_validity cell: 0x056508182405 <Cell value= 1>
+ - instance descriptors (own) #8: 0x056508085bd9 <DescriptorArray[8]>
+ - prototype: 0x056508202eb9 <Object map = 0x565082421b9>
+ - constructor: 0x056508202af1 <JSFunction Object (sfi = 0x56508184721)>
+ - dependent code: 0x056508211f7d <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - construction counter: 0
+
+DebugPrint: 0x565080b9015: [JS_OBJECT_TYPE]
+ - map: 0x0565082422d1 <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x056508202eb9 <Object map = 0x565082421b9>
+ - elements: 0x05650804222d <FixedArray[0]> [HOLEY_ELEMENTS]
+ - properties: 0x05650804222d <FixedArray[0]>
+ - All own properties (excluding elements): {}
+0x565082422d1: [Map]
+ - type: JS_OBJECT_TYPE
+ - instance size: 28
+ - inobject properties: 4
+ - elements kind: HOLEY_ELEMENTS
+ - unused property fields: 4
+ - enum length: invalid
+ - back pointer: 0x0565080423b5 <undefined>
+ - prototype_validity cell: 0x056508182405 <Cell value= 1>
+ - instance descriptors (own) #0: 0x0565080421c1 <Other heap object (STRONG_DESCRIPTOR_ARRAY_TYPE)>
+ - prototype: 0x056508202eb9 <Object map = 0x565082421b9>
+ - constructor: 0x056508202af1 <JSFunction Object (sfi = 0x56508184721)>
+ - dependent code: 0x0565080421b9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - construction counter: 0
+
+DebugPrint: 0x565080b90b9: [JSArray]
+ - map: 0x0565082439f1 <Map(PACKED_DOUBLE_ELEMENTS)> [FastProperties]
+ - prototype: 0x05650820aafd <JSArray[0]>
+ - elements: 0x0565080b90a1 <FixedDoubleArray[2]> [PACKED_DOUBLE_ELEMENTS]
+ - length: 2
+ - properties: 0x05650804222d <FixedArray[0]>
+ - All own properties (excluding elements): {
+    0x565080446d1: [String] in ReadOnlySpace: #length: 0x05650818215d <AccessorInfo> (const accessor descriptor), location: descriptor
+ }
+ - elements: 0x0565080b90a1 <FixedDoubleArray[2]> {
+           0: 1.1
+           1: 2.2
+ }
+0x565082439f1: [Map]
+ - type: JS_ARRAY_TYPE
+ - instance size: 16
+ - inobject properties: 0
+ - elements kind: PACKED_DOUBLE_ELEMENTS
+ - unused property fields: 0
+ - enum length: invalid
+ - back pointer: 0x0565082439c9 <Map(HOLEY_SMI_ELEMENTS)>
+ - prototype_validity cell: 0x056508182405 <Cell value= 1>
+ - instance descriptors #1: 0x05650820afb1 <DescriptorArray[1]>
+ - transitions #1: 0x05650820affd <TransitionArray[4]>Transition array #1:
+     0x056508044fd5 <Symbol: (elements_transition_symbol)>: (transition to HOLEY_DOUBLE_ELEMENTS) -> 0x056508243a19 <Map(HOLEY_DOUBLE_ELEMENTS)>
+
+ - prototype: 0x05650820aafd <JSArray[0]>
+ - constructor: 0x05650820a899 <JSFunction Array (sfi = 0x5650818ac2d)>
+ - dependent code: 0x0565080421b9 <Other heap object (WEAK_FIXED_ARRAY_TYPE)>
+ - construction counter: 0'
+
+
+ quick mahts
+
+ 0x565080b9015 - Empty JSObject
+ 0x565080b90b9 - Float array
+ 0x565080b90c5 - Location of length field
+
+ Need offset of 0xb0 from start of object
+
+ Property p3 is just the right distance
+
+DebugPrint: 0x244d080cf98d: [JS_OBJECT_TYPE]
+ - map: 0x244d08245c79 <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x244d08202eb9 <Object map = 0x244d082421b9>
+ - elements: 0x244d0804222d <FixedArray[0]> [HOLEY_ELEMENTS]
+ - properties: 0x244d0804222d <FixedArray[0]>
+ - All own properties (excluding elements): {
+    0x244d08213f91: [String] in OldSpace: #fake: 0x244d080cf9bd <HeapNumber 1.1> (const data field 0), location: in-object
+ }
+
+0x244d080cf98c: 0x08245c79  0x0804222d  0x0804222d  0x080cf9bd
+0x244d080cf99c: 0x08045a01  0x00010001  0x00000000  0x080421f9
+0x244d080cf9ac: 0x08213f91  0x00000108  0x00000002  0x080422c5
+0x244d080cf9bc: 0x080423d1  0x9999999a  0x3ff19999  0x08042205
+0x244d080cf9cc: 0x00000002  0x00000004  0x08045a01  0x00010001
+0x244d080cf9dc: 0x00000000  0x080421f9  0x08044115  0x00000228
+0x244d080cf9ec: 0x00000002  0x08042c79  0x00000002  0x08382781
+0x244d080cf9fc: 0x08045a01  0x00010001  0x00000000  0x080421f9
+0x244d080cfa0c: 0x08210d6d  0x00000188  0x08245c7b  0x08042a99
+0x244d080cfa1c: 0x00000004  0x9999999a  0x3ff19999  0x9999999a
+0x244d080cfa2c: 0x40019999  0x082439f1  0x0804222d  0x080cfa19
+0x244d080cfa3c: 0x00000004  0x08045a01  0x00020002  0x00000000
+0x244d080cfa4c: 0x080421f9  0x08210d6d
+
+we control p10 and p11 pointers
+
+Starts at offset 0xc, need offset of 0xf8
+
+DebugPrint: 0x3dc208087a91: [JS_OBJECT_TYPE]
+ - map: 0x3dc208245bd9 <Map(HOLEY_ELEMENTS)> [FastProperties]
+ - prototype: 0x3dc2080879c5 <ExploitObj map = 0x3dc208245b11>
+ - elements: 0x3dc20804222d <FixedArray[0]> [HOLEY_ELEMENTS]
+ - properties: 0x3dc20804222d <FixedArray[0]>
+ - All own properties (excluding elements): {
+    0x3dc208210e9d: [String] in OldSpace: #fake_obj: 0x3dc208087b1d <FakeObj map = 0x3dc208245ac1> (const data field 0), location: in-object
+    0x3dc208210c49: [String] in OldSpace: #float_arr: 0x3dc208087bd9 <JSArray[256]> (const data field 1), location: in-object
+    0x3dc208210c35: [String] in OldSpace: #obj_arr: 0x3dc208087c1d <JSArray[1]> (const data field 2), location: in-object
+    0x3dc208210eb1: [String] in OldSpace: #arb_rw: 0x3dc208087c61 <ArrayBuffer map = 0x3dc2082431f9> (const data field 3), location: in-object
+    0x3dc208210cb9: [String] in OldSpace: #mutate_arr: 0x3dc208087cf1 <JSArray[2]> (const data field 4), location: in-object

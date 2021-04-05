@@ -1,0 +1,11 @@
+stuff = 3831363831663633643365336437323637336166626462353938333865343132
+local_20[] = 4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601
+32 characters long
+
+For loop
+Checks if user_input[i] ^ stuff[i] == local_20[i]
+
+To gen user_input:
+user_input = stuff[i] ^ local_20[i]
+
+MD5 hash, decode via simple lookup

