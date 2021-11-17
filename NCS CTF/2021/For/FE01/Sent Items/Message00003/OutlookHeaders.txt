@@ -1,0 +1,18 @@
+Message:
+Client submit time:			Mar 04, 2021 18:22:48.832706900 UTC
+Delivery time:				Mar 04, 2021 18:22:00.000000000 UTC
+Creation time:				Mar 04, 2021 18:22:48.606701500 UTC
+Size:					32489
+Flags:					0x00000001 (Read)
+Conversation topic:			Delivery at front desk.
+Subject:				RE: Delivery at front desk.
+Sender name:				Steven Hark
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=690CD8BD2F9E4DB1826694739B2C7B3B-STEVEN.HARK
+Sent representing name:			Steven Hark
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=690CD8BD2F9E4DB1826694739B2C7B3B-STEVEN.HARK
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Is private:				no
+

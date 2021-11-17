@@ -1,0 +1,54 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-05 19:26 PDT
+Stats: 0:00:03 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 1.00% done; ETC: 19:31 (0:04:57 remaining)
+Stats: 0:00:05 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 2.00% done; ETC: 19:30 (0:04:05 remaining)
+Stats: 0:00:06 elapsed; 0 hosts completed (1 up), 1 undergoing Connect Scan
+Connect Scan Timing: About 2.50% done; ETC: 19:30 (0:03:54 remaining)
+Stats: 0:04:10 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:04:31 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:04:37 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Nmap scan report for cfta-ne01.allyourbases.co (52.210.101.44)
+Host is up (0.18s latency).
+Other addresses for cfta-ne01.allyourbases.co (not scanned): 34.251.231.207
+rDNS record for 52.210.101.44: ec2-52-210-101-44.eu-west-1.compute.amazonaws.com
+Not shown: 999 filtered ports
+PORT     STATE SERVICE VERSION
+1061/tcp open  kiosk?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port1061-TCP:V=7.80%I=7%D=4/5%Time=606BC797%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W0rld!\n")%r(GenericLines,9,"ID
+SF::\x20ne01\n")%r(GetRequest,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W0rld!
+SF:\n")%r(HTTPOptions,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W0rld!\n")%r(R
+SF:TSPRequest,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W0rld!\n")%r(DNSVersio
+SF:nBindReqTCP,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W0rld!\n")%r(Help,9,"
+SF:ID:\x20ne01\n")%r(SSLSessionReq,22,"ID:\x20ne01\nFlag:\x20Nmap_0f_the_W
+SF:0rld!\n")%r(TLSSessionReq,9,"ID:\x20ne01\n")%r(Kerberos,9,"ID:\x20ne01\
+SF:n")%r(SMBProgNeg,9,"ID:\x20ne01\n")%r(X11Probe,22,"ID:\x20ne01\nFlag:\x
+SF:20Nmap_0f_the_W0rld!\n")%r(FourOhFourRequest,23E5,"HTTP/1\.1\x20200\x20
+SF:OK\r\nCache-Control:\x20no-store,\x20no-cache,\x20must-revalidate\r\nCo
+SF:ntent-type:\x20text/html;\x20charset=utf-8\r\nPragma:\x20no-cache\r\nEx
+SF:pires:\x200\r\nConnection:\x20close\r\nReferrer-Policy:\x20no-referrer-
+SF:when-downgrade\r\nContent-Length:\x208962\r\n\r\n<!DOCTYPE\x20html>\n<h
+SF:tml>\n\x20\x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20
+SF:http-equiv=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\
+SF:x20></meta>\n\x20\x20\x20\x20\x20\x20\x20\x20<title\x20ids=\"block_page
+SF:\.title\">Web\x20Threat\x20Blocked</title>\n\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20<style>body\x20{\x20background-color:\x20#ebebeb;\x20}\x20\.bd-mai
+SF:n-container\x20{\x20width:\x20540px;\x20margin:\x2015%\x20auto\x200\x20
+SF:auto;\x20}\x20\.bd-icon\x20{\x20width:\x2087px;\x20height:\x2087px;\x20
+SF:background-repeat:\x20no-repeat;\x20background-image:\x20url\(data:imag
+SF:e/svg\+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NC
+SF:jwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNi4wLjAsIFNWRyBFeHBvcnQg
+SF:UGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSB
+SF:zdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cud")%r(
+SF:LPDString,9,"ID:\x20ne01\n")%r(LDAPSearchReq,22,"ID:\x20ne01\nFlag:\x20
+SF:Nmap_0f_the_W0rld!\n")%r(LDAPBindReq,9,"ID:\x20ne01\n")%r(LANDesk-RC,9,
+SF:"ID:\x20ne01\n")%r(TerminalServer,9,"ID:\x20ne01\n")%r(NCP,9,"ID:\x20ne
+SF:01\n")%r(NotesRPC,9,"ID:\x20ne01\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 279.49 seconds

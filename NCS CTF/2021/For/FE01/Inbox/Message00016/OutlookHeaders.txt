@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Mar 03, 2021 15:04:08.000000000 UTC
+Delivery time:				Mar 03, 2021 15:04:09.347863300 UTC
+Creation time:				Mar 03, 2021 15:04:09.248301300 UTC
+Size:					50946
+Flags:					0x00000001 (Read)
+Conversation topic:			Friday Catch-up.
+Subject:				Friday Catch-up.
+Sender name:				Chris Kellogg
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Sent representing name:			Chris Kellogg
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

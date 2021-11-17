@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Feb 23, 2021 10:46:45.897980100 UTC
+Delivery time:				Feb 23, 2021 10:46:45.897980100 UTC
+Creation time:				Feb 23, 2021 10:46:45.746644400 UTC
+Size:					173580
+Flags:					0x00000011 (Read, Has attachments)
+Conversation topic:			Welcome to MyAnalytics
+Subject:				Welcome to MyAnalytics
+Sender name:				MyAnalytics
+Sender email address:			no-reply@microsoft.com
+Sent representing name:			MyAnalytics
+Sent representing email address:	no-reply@microsoft.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

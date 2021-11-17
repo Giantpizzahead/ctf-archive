@@ -1,0 +1,28 @@
+Message:
+Client submit time:			Mar 03, 2021 15:00:22.196000000 UTC
+Delivery time:				Mar 03, 2021 15:00:21.937000000 UTC
+Creation time:				Mar 03, 2021 15:00:23.778739600 UTC
+Size:					53376
+Flags:					0x00000001 (Read)
+Conversation topic:			c]5p@S7K/z}Z!Q  -  11am meeting with Chris
+Subject:				Meeting with Chris
+Sender name:				Steven Hark
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Sent representing name:			Steven Hark
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Reminder time:				Mar 05, 2021 08:00:00.000000000 UTC
+Is private:				no
+
+Appointment:
+Start time:				Mar 05, 2021 08:00:00.000000000 UTC
+End time:				Mar 06, 2021 08:00:00.000000000 UTC
+Duration:				1440 minutes
+Location:				
+Recurrence pattern:			
+First effective time:			Mar 05, 2021 08:00:00.000000000 UTC
+Last effective time:			Mar 06, 2021 08:00:00.000000000 UTC
+Busy status:				0x00000000

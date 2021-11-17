@@ -1,0 +1,11 @@
+Message:
+Client submit time:			Mar 04, 2021 19:17:53.952000000 UTC
+Delivery time:				Mar 04, 2021 19:17:53.952000000 UTC
+Creation time:				Mar 04, 2021 19:17:53.952000000 UTC
+Size:					2027
+Flags:					0x00000000 (Unread)
+Conversation topic:			Modification Resolution
+Subject:				Modification Resolution
+Importance:				Normal
+Sensitivity:				None
+

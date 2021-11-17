@@ -1,0 +1,31 @@
+Pair 0 and 2
+1f 0d 00 50 46 0b 14 02 53 1a 1a 4e 34 48 0f 02 1f 59 27 00 0c 4d 0b 15 38 06 
+Message 1 [26]:
+e-z f-y g-x h-w i-v j-u k-t l-s m-r n-q o-p  -? .-1 --2 ,-3 
+a-l b-o c-n d-i e-h f-k g-j t-y u-x w-z  -- !-, 2-? 4-9 5-8 6-; 7-: 
+a-a b-b c-c d-d e-e f-f g-g h-h i-i j-j k-k l-l m-m n-n o-o p-p q-q r-r s-s t-t u-u v-v w-w x-x y-y z-z  -  .-. :-: !-! ?-? ;-; --- ,-, 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 
+ -p :-j !-q ?-o ;-k 1-a 2-b 3-c 4-d 5-e 6-f 7-g 8-h 9-i 
+ -f .-h !-g ?-y --k ,-j 0-v 1-w 2-t 3-u 4-r 5-s 6-p 7-q 
+a-j b-i c-h d-o e-n f-m g-l q-z r-y s-x 0-; 1-: 2-9 3-8 4-? 
+a-u b-v c-w d-p e-q f-r g-s l-x m-y n-z  -4 .-: !-5 --9 ,-8 
+a-c d-f e-g h-j i-k l-n m-o p-r q-s t-v u-w x-z ,-. 0-2 1-3 4-6 5-7 8-: 9-; 
+ -s :-i !-r ?-l ;-h 0-c 1-b 2-a 4-g 5-f 6-e 7-d 8-k 9-j 
+b-x c-y h-r i-s j-p k-q l-v m-w n-t o-u  -: .-4 !-; --7 ,-6 
+b-x c-y h-r i-s j-p k-q l-v m-w n-t o-u  -: .-4 !-; --7 ,-6 
+ -n :-t !-o ?-q ;-u --c ,-b 4-z 6-x 7-y 8-v 9-w 
+
+ -h .-f :-r !-i ?-w ;-s --e ,-d 0-x 1-y 2-z 8-p 9-q 
+a-n b-m c-l d-k e-j f-i g-h u-z v-y w-x !-. 0-? 4-; 5-: 6-9 7-8 
+a-c d-f e-g h-j i-k l-n m-o p-r q-s t-v u-w x-z ,-. 0-2 1-3 4-6 5-7 8-: 9-; 
+e-z f-y g-x h-w i-v j-u k-t l-s m-r n-q o-p  -? .-1 --2 ,-3 
+ -y .-w :-c !-x ?-f ;-b --t ,-u 0-i 1-h 2-k 3-j 4-m 5-l 6-o 7-n 8-a 
+
+a-a b-b c-c d-d e-e f-f g-g h-h i-i j-j k-k l-l m-m n-n o-o p-p q-q r-r s-s t-t u-u v-v w-w x-x y-y z-z  -  .-. :-: !-! ?-? ;-; --- ,-, 0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 
+a-m b-n c-o d-h e-i f-j g-k t-x u-y v-z  -, !-- 3-? 4-8 5-9 6-: 7-; 
+ -m .-c :-w !-l ?-r ;-v ,-a 4-y 5-x 7-z 8-u 9-t 
+a-j b-i c-h d-o e-n f-m g-l q-z r-y s-x 0-; 1-: 2-9 3-8 4-? 
+a-t b-w c-v d-q e-p f-s g-r l-y m-x o-z  -5 .-; !-4 --8 ,-9 
+
+a-g b-d c-e h-n i-o j-l k-m p-v q-w r-t s-u 0-6 1-7 2-4 3-5 9-? 
+Shimmy /  for
+

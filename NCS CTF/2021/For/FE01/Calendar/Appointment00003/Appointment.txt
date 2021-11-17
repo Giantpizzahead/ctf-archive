@@ -1,0 +1,28 @@
+Message:
+Client submit time:			Mar 04, 2021 19:15:13.080000000 UTC
+Delivery time:				Mar 04, 2021 19:15:13.079000000 UTC
+Creation time:				Mar 08, 2021 11:45:26.936868400 UTC
+Size:					15895
+Flags:					0x00000001 (Read)
+Conversation topic:			9am - Project Review
+Subject:				Project Review
+Sender name:				Steven Hark
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Sent representing name:			Steven Hark
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				yes
+Reminder time:				Mar 11, 2021 17:00:00.000000000 UTC
+Is private:				no
+
+Appointment:
+Start time:				Mar 11, 2021 17:00:00.000000000 UTC
+End time:				Mar 11, 2021 19:30:00.000000000 UTC
+Duration:				150 minutes
+Location:				
+Recurrence pattern:			
+First effective time:			Mar 11, 2021 17:00:00.000000000 UTC
+Last effective time:			Mar 11, 2021 19:30:00.000000000 UTC
+Busy status:				0x00000002

@@ -1,0 +1,59 @@
+Useful tools that weren't preinstalled (command - description)
+--------------------------------------------------------------
+
+ENUMERATION
+-----------
+
+nmap - Port scanner.
+
+nikto - Scans web servers for general vulnerabilities. Very aggressive, leaves lots of traces.
+
+sqlmap - Scans web servers for possible SQL injections.
+
+gobuster - Looks for common pages on web servers. Use with a wordlist (~/Documents/SecLists/Discovery/Web-Content/common.txt).
+
+dirsearch - Looks for common directories / files on web servers. Doesn't need a wordlist.
+
+PROXY
+-----------
+
+Burp Suite & ZAP - Record and send web requests, and a whole bunch of other web stuff.
+
+BINARY EXPLOITATION
+-------------------
+
+one_gadget - Finds convenient gadgets to return to, preferably ones with little to no conditions that give a shell.
+
+angr - Automated binary exploitation solver, uses symbolic execution.
+
+pwntools - Python module, helps with exploit development.
+
+gef - "Modern" version of GDB.
+
+FORENSICS
+---------
+
+binwalk - Finds files hidden inside other files
+
+steghide - Steganography helper.
+
+autopsy - Disk image analyzer.
+
+volatility - Memory dump analyzer.
+
+ghex - Graphical hex editor.
+
+MISCELLANEOUS
+-------------
+
+SecLists - A bunch of different wordlists, designed for many situations.
+
+smbclient - Client for connecting to SMB servers (port 445).
+
+virtualenv - Python virtual environments.
+
+https://www.exploit-db.com/ - Search for service vulnerabilities, and how to exploit them.
+
+To make a program globally available:
+sudo mv PROGRAM_DIR_OR_NAME /opt
+sudo ln -s /opt/PROGRAM_EXECUTABLE /usr/bin/BASH_NAME

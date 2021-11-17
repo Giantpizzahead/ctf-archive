@@ -1,0 +1,97 @@
+Received: from LO2P123MB2672.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:c9::22)
+ by CWLP123MB4241.GBRP123.PROD.OUTLOOK.COM with HTTPS; Wed, 3 Mar 2021
+ 15:25:32 +0000
+Authentication-Results: testymctestfaces.com; dkim=none (message not signed)
+ header.d=none;testymctestfaces.com; dmarc=none action=none
+ header.from=testymctestfaces.com;
+Received: from LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:1a2::11)
+ by LO2P123MB2672.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:c9::22) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3890.26; Wed, 3 Mar
+ 2021 15:25:30 +0000
+Received: from LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::2cbc:453e:c430:f8da]) by LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::2cbc:453e:c430:f8da%7]) with mapi id 15.20.3890.029; Wed, 3 Mar 2021
+ 15:25:30 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: Chris Kellogg <Chris.Kellogg@testymctestfaces.com>
+To: Steven Hark <steven.hark@testymctestfaces.com>
+Subject: Re: Friday Catch-up.
+Thread-Topic: Friday Catch-up.
+Thread-Index: AQHXED4b3xgJDEmKl0Kv//8ZCCUdx6pyXI6QgAAFH+I=
+Date: Wed, 3 Mar 2021 15:25:29 +0000
+Message-ID:
+ <LO2P123MB4522892B868144C446B3C1E69C989@LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM>
+References:
+ <LO2P123MB4522A69C25B1FB407B75A9A29C989@LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM>,<CWLP123MB4241701D031CA132A623FD4991989@CWLP123MB4241.GBRP123.PROD.OUTLOOK.COM>
+In-Reply-To:
+ <CWLP123MB4241701D031CA132A623FD4991989@CWLP123MB4241.GBRP123.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+ <LO2P123MB4522892B868144C446B3C1E69C989@LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [2a02:c7f:2609:b600:7136:dc0e:7631:f3ca]
+X-MS-Exchange-Organization-Network-Message-Id:
+ 723e68eb-86ef-4bf2-f38f-08d8de589457
+X-MS-PublicTrafficType: Email
+Return-Path: Chris.Kellogg@testymctestfaces.com
+X-MS-Exchange-Organization-ExpirationStartTime: 03 Mar 2021 15:25:30.0903
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: 723e68eb-86ef-4bf2-f38f-08d8de589457
+X-MS-TrafficTypeDiagnostic: LO2P123MB2672:
+X-MS-Oob-TLC-OOBClassifiers: OLM:6790;
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-AntiSpam-MessageData:
+ =?us-ascii?Q?FMSphmCLEz3Q4MgmiAvU65Y3fcxdATxbfhaLlxMz7e/InV8MM7KS9xAGw5EB?=
+ =?us-ascii?Q?lstZTV/H5/lYfWvHxcT+WWojx+xGv9WvyjAO3iSAEwSSoDehVFwsQ3lbbP5i?=
+ =?us-ascii?Q?+6AFl2mxMnKkjszCB2mRtAp+DlpfSYU7XhrprgmxhTf010u7UytwgyL/FVJc?=
+ =?us-ascii?Q?QKVi2JBopfog/YV/XrpbIjhKr0yyjp3zYvtKIrvIRXFX45RLVTbOCKAXal3g?=
+ =?us-ascii?Q?YWE93/Pckv8rVp7Ss1N7zTGQxfsb9DylOjr+sLGNwK0+rQ0/UYRGFqp7InH2?=
+ =?us-ascii?Q?oE2YgssJf10SMerOANmG+tvG1XeRQXWvH4z2et3vjOUXDWmhdi51DooZK8ZA?=
+ =?us-ascii?Q?kCvkONsEZO1h+nOBaXlu8+UyuwpsDmvc1Pnt8vDaU2GDGt5K1v47HVuzLIRs?=
+ =?us-ascii?Q?BnbYpGkF3dzsGEz/K52fdOEpCNI44tiUiuZSZX1FbbxQnF4rDqIo0eROBdjJ?=
+ =?us-ascii?Q?6i7VJVPTKRhKG672zjaa8pnN7iefJhC5W+cgh5x225i7T0W0pAhrfb+T9th7?=
+ =?us-ascii?Q?Rq2EZ2BEuqgXdi3cs6b55gjbfs9HGHvFjzly8DptYfak9oQJYjUW3y3DSTyd?=
+ =?us-ascii?Q?I1GwdRuvSK4kj/3S/BUE1QJoPh7y2QZKORys3hL8QGRt+dbDVq/KFoEClvnl?=
+ =?us-ascii?Q?YkcvW0UuI1mIvo1eurDmupjcudqUyDRPZsukESLv9XQFRSYmoiRs0VAbGwez?=
+ =?us-ascii?Q?qiUDB1i3AVANIOFQS68Y6oNsxPJRXgtNAhtvCNW0dP9h4eTh2rt02Kc8m9dJ?=
+ =?us-ascii?Q?UZkbfrRY6wnsqQC79tXmKECh3c4wkk2kMVVU714GXg6Cxylb3KGmvORIh6T0?=
+ =?us-ascii?Q?pGujA/Wj7WDsPdlrfv5ghUS+tUPcL1qL3/dou0QeIGZE01PLw4Rly8w3Cuta?=
+ =?us-ascii?Q?yP/MLm9UPFySlWYBnF5u4k3Zs7SuK7tcM/Rs14tJ08O7NN/hbKd8C721NfA3?=
+ =?us-ascii?Q?X1/0SSjMqBOBqNOuKlL3rwLUPTuSWzJqa8IzHEnw5Q8lzgQTfShptGFARuxp?=
+ =?us-ascii?Q?juXMzgMsrL32m1P6L1w1yj3QUonj2ZG/MQk57KK+oYyuzSvNHXeRsnWRo2hy?=
+ =?us-ascii?Q?Kp5bod/4rzE8D1u1MNDZZehsgmu49mSxbZ9+XDN/beHKRuoVzSaWQVS5OK4n?=
+ =?us-ascii?Q?aUFg1o9bPdnRNpCmpZweUGrIrmjAtKJyJv5v5yPvMrH4JDvRGYQpFudnPazM?=
+ =?us-ascii?Q?zcdHQ0rYMPEglNZTCZO3obwidERyMGwH09jHvo4lVwYvxVI6HQ5mfuaAuDuf?=
+ =?us-ascii?Q?bt6vzfTr5lA/a/c71zRsWWILmK+CN681kF1LsPv0hKduCst7UgpCUqfWkl08?=
+ =?us-ascii?Q?u11vmWCDT31EIYTV3R1CIfcdc8tnfM4mEHCM5QU78uuiZW6ZbyBnMT3E9vGD?=
+ =?us-ascii?Q?qnbKFEc=3D?=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 03 Mar 2021 15:25:29.9050
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 503b535a-28fe-441e-855d-67a085417944
+X-MS-Exchange-CrossTenant-AuthSource: LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: 723e68eb-86ef-4bf2-f38f-08d8de589457
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: HAS9ztcCpze8U6WiqKEqnaWOgVrPS0a9ClG2bWRfhvPm3b2kqq51aduGbkaKVwRz8OIrqJaan8mouyP9DrT1iYeV8GCS83dD9Gh50umzj7BDhdkmRT5Gr9Q91Ew1MTJH
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LO2P123MB2672
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.2001620
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3890.028
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(750129)(520011016)(706158)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	TH+uL+LoDJ+qHanw1nmKYCv0HW8gRcpDXA8q+376rL6xxOEgZ7yZqXJY4BIls3lNbwVKQ/EudMeiI3V8kXXs10mC7KMQ+98IoF4DKFMxQib6bkcucR9yZhxkDajaJOzakJy1489tCJ+1gkMikCgxQbE3ar/Fnx75MmfCI9fyeyLigK6shYd+XXvXpSPRsEvsfbGTCwBhc2ohJJ6uWEopxVhiWPxKgGmVvhnd+l6HEQgi1Qjc24cWcxDuxhr2T0nG9MG50lr3RfOcIzwY8AXXqINRk0lA2wRZMgdHzH2r5S3DwJxpna4YVa2U2o+oUg2Fj+tUlumiGdzfioGk37qWNCCtC+AHJIFEyg11JYRq6kuyuHPtr12bJ1MW9AI2pH21pDzybYDInM9Vm0PEjnCYoZrHs27+pJGmKb87wkVQQATdbK+/aJUHpvKq7GDy8tYlVmdcGZ/WHl0H4Fs3kWZRU1LV7ROEBwFQNX5ak+tpnWn2cjxgjDIj5lGVCxWg80ql33shTmGcrfWbS8vdWeMjx+iEwjoRT58xvW0Gv0QbMGHexrxtZD5rERNcysFUU2Em05rhyWuY3Vyp7b9s7sGY9w==

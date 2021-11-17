@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Mar 04, 2021 18:43:59.000000000 UTC
+Delivery time:				Mar 04, 2021 18:44:00.971976000 UTC
+Creation time:				Mar 04, 2021 18:44:00.657360500 UTC
+Size:					59776
+Flags:					0x00000013 (Read, Unmodified, Has attachments)
+Conversation topic:			Invoice for the new office.
+Subject:				Invoice for the new office.
+Sender name:				Chris Kellogg
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Sent representing name:			Chris Kellogg
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

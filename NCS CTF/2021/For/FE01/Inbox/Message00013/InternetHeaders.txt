@@ -1,0 +1,108 @@
+Received: from LO0P123MB3914.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:13f::8)
+ by CWLP123MB4241.GBRP123.PROD.OUTLOOK.COM with HTTPS; Tue, 9 Feb 2021
+ 09:54:47 +0000
+Received: from CWXP123CA0002.GBRP123.PROD.OUTLOOK.COM (2603:10a6:401:73::14)
+ by LO0P123MB3914.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:13f::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.17; Tue, 9 Feb
+ 2021 09:54:46 +0000
+Received: from CWLGBR01FT015.eop-gbr01.prod.protection.outlook.com
+ (2603:10a6:401:73:cafe::ac) by CWXP123CA0002.outlook.office365.com
+ (2603:10a6:401:73::14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3825.19 via Frontend
+ Transport; Tue, 9 Feb 2021 09:54:46 +0000
+Authentication-Results: spf=pass (sender IP is 207.46.50.231)
+ smtp.mailfrom=microsoft.com; testymctestfaces.com; dkim=pass (signature was
+ verified) header.d=microsoft.com;testymctestfaces.com; dmarc=pass action=none
+ header.from=microsoft.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of microsoft.com designates
+ 207.46.50.231 as permitted sender) receiver=protection.outlook.com;
+ client-ip=207.46.50.231; helo=smtpi.msn.com;
+Received: from smtpi.msn.com (207.46.50.231) by
+ CWLGBR01FT015.mail.protection.outlook.com (10.152.40.104) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id
+ 15.20.3784.11 via Frontend Transport; Tue, 9 Feb 2021 09:54:46 +0000
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=s1024; t=1612864484; h=From; bh=epSNyAHiX6GbO/WT1Ou1Q27KiW4qN0oAr7nIIcc
+ VQKM=; b=kCCAaEREalfxHu5TZB7AIavN4twMDBSq+FstT5uSqyIikiWCW/oA1g3gcDv9sTrY
+ 3FbLdsgnmMx/jyL7sx4wfyNcmNI52BhAh64Wk4Wh6ww93D3TYlrCAV94L+sBPfBlKWbeaGKI7
+ Zo3X1QoT9XUSJFWR4bUCklks8cJ4iZFCB4=;
+X-MS-Iris-MetaData: {"Type":null,"Fields":{"InstanceID":"33ce08ba-26ec-4cce-b2e7-bd9d44059620","ActivityID":"f1f014a9-5ea7-4180-b7ba-d28086bffa9b"}}
+Message-ID: <33ce08ba26ec4cceb2e7bd9d44059620-JFBVALKQOJXWILKNK4YVA7CPGM3DKTLFONZWCZ3FINSW45DFOJ6E2ZLTONQWOZKDMVXHIZLSL5GUGMRTHA3DIOD4KNWXI4A=@microsoft.com>
+MIME-Version: 1.0
+From: Microsoft 365 Message center <o365mc@microsoft.com>
+To: <steven.hark@testymctestfaces.com>
+Date: Tue, 9 Feb 2021 01:54:44 -0800
+Subject: Message Center Major Change Update Notification
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+Return-Path: o365mc@microsoft.com
+X-DKIM-Signer: DkimX (v3.20.320)
+X-MS-Exchange-Organization-ExpirationStartTime: 09 Feb 2021 09:54:46.6810
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id:
+ 2056510f-710f-43d0-243a-08d8cce0bbb4
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 503b535a-28fe-441e-855d-67a085417944:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-Exchange-Organization-AuthSource:
+ CWLGBR01FT015.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Office365-Filtering-Correlation-Id: 2056510f-710f-43d0-243a-08d8cce0bbb4
+X-MS-TrafficTypeDiagnostic: LO0P123MB3914:
+X-MS-Oob-TLC-OOBClassifiers: OLM:7691;
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:1;
+X-Forefront-Antispam-Report:
+ CIP:207.46.50.231;CTRY:SG;LANG:en;SCL:1;SRV:;IPV:NLI;SFV:NSPM;H:smtpi.msn.com;PTR:singmehub10.msn.com;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 09 Feb 2021 09:54:46.3441
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 2056510f-710f-43d0-243a-08d8cce0bbb4
+X-MS-Exchange-CrossTenant-Id: 503b535a-28fe-441e-855d-67a085417944
+X-MS-Exchange-CrossTenant-AuthSource:
+ CWLGBR01FT015.eop-gbr01.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LO0P123MB3914
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.9744109
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3825.030
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(20160514016)(750128)(520011016)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	=?us-ascii?Q?hLIXIBjjP51bfdWrIRtbD01Z0XZqRO5SLn6qpmpUQW4XF6CSJrQXFrVqxTgU?=
+ =?us-ascii?Q?bDsN34L6s0gi14e3RHsVB2bhoNvjpdHBe8m+LPtvN5QLP9KndGpKe0RflBLo?=
+ =?us-ascii?Q?e6cbyAdMrTpYEcc/MKGOkj/j9LnmlkktqhTITt3wWyJkEwUzUiRubQMFGmG+?=
+ =?us-ascii?Q?HhG62ShnOwPk3ktGQWyeCcL5WoIOgzChJOqk0rBPqoJGayLLFzZlzw8QlvZB?=
+ =?us-ascii?Q?X+H4hjM9KZbT3OdeRAA25rRcmICx8BW1/zsASVZqaoatn0ggyMQPiJOvD3Bj?=
+ =?us-ascii?Q?YCEDqGOaWK+7AdeyOB43fd2zigBPQq/TKAIntskFn56ZMQmd1N0Z2+JQc1Gm?=
+ =?us-ascii?Q?iDSWxoUPT2WBrnpKi/EGsn4odsg37EYdk6l3nhHgCRZhxy4smQLGYNEgYP3W?=
+ =?us-ascii?Q?Nq/sXbHKnFfNgMwwx8Ia1zw5ns2wP2Pl/JPpEdo001Rq+PoTMeBceoh6mu6k?=
+ =?us-ascii?Q?/75ARE8pwxKmqz+ZHB13MzmbD/PuxR181hzWNFMCzwPM3GfO968qVRrDzPtO?=
+ =?us-ascii?Q?hMVrWOQvhOg153CKgzag6vAnMG0RI6F6gIgvlTJHsn/PoD78w5S5+6u+u2Pb?=
+ =?us-ascii?Q?9XBMmJSNlE+zkVZ91J/gFnxJbGuYQN9Chcz66JOo9CfsLj0tvHsMHdCGM5y+?=
+ =?us-ascii?Q?rLZp9naNVe+2OS6aWaA6ysIsKsA0lvPcxtawAWiZqeKwJdeyqSkgN1Fyb8VJ?=
+ =?us-ascii?Q?3tpiXVScBLrp7L7ebLRWtMjOIsxl18CP6z8ortOJSyNbLE4eP52uv8rtmt1A?=
+ =?us-ascii?Q?r2CRlLrpYmLUXRDswwUTAcRSvhYTP39G1kHycQjkK54JmxXaiFAg5NWhucpt?=
+ =?us-ascii?Q?HAXxqgJijIRBx/9yYKQdqcMeWvvX5G3W7anbtD9nltce1DJjjKdLF9swkzyi?=
+ =?us-ascii?Q?QE289uCgsxVxNjgkgtmXArhp1cotzgdUmkBeKFSRcw4UnOrW9uiKUZHeDA7V?=
+ =?us-ascii?Q?GDK0ol5I2lWt8oGWsMvSeErXnjwupllDXFdhjgmQ0aHjj3iLptL+ocDil101?=
+ =?us-ascii?Q?UsZA7zJ+tUTCSSgkTbe2dT0NRvwg9Uw4Y72RzSo9JIfclm0X7LrkYJY2XQ8A?=
+ =?us-ascii?Q?Z6X8fyZUUmflHDMuUvoHB4+7aPX+fHvrtynccSqD7Pqd4lr0tSZP2Hdsbx2B?=
+ =?us-ascii?Q?1CkwrNizH5HZ/u1kiKvKQqDneqnJCuZbtvnQ9UiufpQZVwtwxJLq8oMQA+le?=
+ =?us-ascii?Q?LLyZI9O0Db0zP25k9XzNSqph/kJvQx3Os/H1vdnasQAl2dQDUBvukzmfvSlM?=
+ =?us-ascii?Q?uyAcc6CRmaZAXjZdBNq9j06NYPk2jJZKgsCjDumk6jvA6HBWKCYNuEr/+Drl?=
+ =?us-ascii?Q?5SGKb70guLj19BHi7xU4A7oxhjNjy86lxqaTu2muxUR8RIO2IMgHXQGcCzVu?=
+ =?us-ascii?Q?72+0TBcJYdaHv7ipX2RnacKJNXN2G57iPpzH9jIebulO/u4vTLMrgwMVSoOx?=
+ =?us-ascii?Q?9M9EBx1bqR7CpgTFHSlg5lcn4ayceOPYh/0GLG1gEyL9SjhXnMCrkOZSLYQ/?=
+ =?us-ascii?Q?WB7NTXGJCPP8mh1biIZo9hhrHWc3dk0KB68m3UMqlzVI0WacgDsajLnMLztM?=
+ =?us-ascii?Q?HX/qXmlOFZHFS9dApk3EaZ1srawcqowSk0VJXYQpjhi6scB08zIYHX8Xv8XG?=
+ =?us-ascii?Q?+2m2sonpNGNjXXOfNEX2iTSBOsEWGwYxrjR4FtlUsixemP72/uk2OX4o/qhd?=
+ =?us-ascii?Q?hGkM4lbgxi2YfNEObmdYYgMWDcX79IRKMFD0ioUjfyD39TURzodJyYE15AEX?=
+ =?us-ascii?Q?qXHXtwOlDiF5p3tT50ObtZa2kBvY7BVMw4Lh1geP3zW2PLXXhH+eCmAa+td9?=
+ =?us-ascii?Q?HXIDksqtb4hlxk8Up+JxrC99UU6B8lHHhKXOSoVetux6lGk0cf9miL84oe/8?=
+ =?us-ascii?Q?XZgrY4pydpMcMzWAJ7MstaQQb1wU3EE/QhU5icq8+afbrRasBVRspVxCrWv3?=
+ =?us-ascii?Q?ADjMQS/5j7a/svx5267I2A=3D=3D?=

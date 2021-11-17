@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Mar 08, 2021 10:06:55.000000000 UTC
+Delivery time:				Mar 08, 2021 10:06:59.910710600 UTC
+Creation time:				Mar 08, 2021 10:06:59.357143300 UTC
+Size:					268049
+Flags:					0x00000003 (Read, Unmodified)
+Conversation topic:			Weekly digest: Microsoft service updates
+Subject:				Weekly digest: Microsoft service updates
+Sender name:				Microsoft 365 Message center
+Sender email address:			o365mc@microsoft.com
+Sent representing name:			Microsoft 365 Message center
+Sent representing email address:	o365mc@microsoft.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Mar 04, 2021 18:47:59.000000000 UTC
+Delivery time:				Mar 04, 2021 18:48:00.742721800 UTC
+Creation time:				Mar 04, 2021 18:48:00.449012400 UTC
+Size:					41402
+Flags:					0x00000003 (Read, Unmodified)
+Conversation topic:			Hardware
+Subject:				Hardware
+Sender name:				Chris Kellogg
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Sent representing name:			Chris Kellogg
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=5C51D1FE97734BDFA7FA0B9B9A29A254-CHRIS.KELLO
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

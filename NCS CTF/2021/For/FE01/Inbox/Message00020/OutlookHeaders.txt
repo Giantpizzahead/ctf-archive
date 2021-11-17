@@ -1,0 +1,17 @@
+Message:
+Client submit time:			Mar 03, 2021 16:50:57.000000000 UTC
+Delivery time:				Mar 03, 2021 16:50:58.433071000 UTC
+Creation time:				Mar 03, 2021 16:50:58.231955700 UTC
+Size:					44479
+Flags:					0x00000003 (Read, Unmodified)
+Conversation topic:			Infrastructure review.
+Subject:				Re: Infrastructure review.
+Sender name:				Jon Sampson
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=E9B75F833D9543E4BCF6CEBB73E36220-JON.SAMPSON
+Sent representing name:			Jon Sampson
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=E9B75F833D9543E4BCF6CEBB73E36220-JON.SAMPSON
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is private:				no
+

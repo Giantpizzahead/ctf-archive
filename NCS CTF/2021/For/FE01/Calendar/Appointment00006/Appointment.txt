@@ -1,0 +1,28 @@
+Message:
+Client submit time:			Mar 04, 2021 19:19:47.295000000 UTC
+Delivery time:				Mar 04, 2021 19:19:47.290000000 UTC
+Creation time:				Mar 08, 2021 11:49:49.419723200 UTC
+Size:					49179
+Flags:					0x00000001 (Read)
+Conversation topic:			Holiday
+Subject:				Holiday
+Sender name:				Steven Hark
+Sender email address:			/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Sent representing name:			Steven Hark
+Sent representing email address:	/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				yes
+Reminder time:				Mar 12, 2021 08:00:00.000000000 UTC
+Is private:				no
+
+Appointment:
+Start time:				Mar 12, 2021 08:00:00.000000000 UTC
+End time:				Mar 13, 2021 08:00:00.000000000 UTC
+Duration:				1440 minutes
+Location:				
+Recurrence pattern:			
+First effective time:			Mar 12, 2021 08:00:00.000000000 UTC
+Last effective time:			Mar 13, 2021 08:00:00.000000000 UTC
+Busy status:				0x00000000

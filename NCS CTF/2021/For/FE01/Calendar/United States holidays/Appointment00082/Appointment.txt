@@ -1,0 +1,27 @@
+Message:
+Client submit time:			Feb 22, 2021 12:21:45.157564100 UTC
+Delivery time:				Feb 22, 2021 12:21:45.157564100 UTC
+Creation time:				Feb 22, 2021 12:21:45.126700400 UTC
+Size:					11804
+Flags:					0x00000001 (Read)
+Subject:				Tax Day
+Sender name:				Steven Hark
+Sender email address:			/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=690CD8BD2F9E4DB1826694739B2C7B3B-STEVEN.HARK
+Sent representing name:			Steven Hark
+Sent representing email address:	/O=EXCHANGELABS/OU=EXCHANGE ADMINISTRATIVE GROUP (FYDIBOHF23SPDLT)/CN=RECIPIENTS/CN=690CD8BD2F9E4DB1826694739B2C7B3B-STEVEN.HARK
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+Is a reminder:				no
+Reminder time:				Apr 15, 2021 00:00:00.000000000 UTC
+Is private:				no
+
+Appointment:
+Start time:				Apr 15, 2021 00:00:00.000000000 UTC
+End time:				Apr 16, 2021 00:00:00.000000000 UTC
+Duration:				1440 minutes
+Location:				United States
+Recurrence pattern:			
+First effective time:			Apr 15, 2021 00:00:00.000000000 UTC
+Last effective time:			Apr 16, 2021 00:00:00.000000000 UTC
+Busy status:				0x00000000

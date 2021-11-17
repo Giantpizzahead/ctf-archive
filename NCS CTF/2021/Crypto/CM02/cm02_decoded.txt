@@ -1,0 +1,213 @@
+what is electricity?
+
+of the ultimate nature of electricity, as of that of heat and light, we
+are at present ignorant. but it has been clearly established that all
+three phenomena are but manifestations of the energy pervading the
+universe. by means of suitable apparatus one form can be converted into
+another form. the heat of fuel burnt in a boiler furnace develops
+mechanical energy in the engine which the boiler feeds with steam. the
+engine revolves a dynamo, and the electric current thereby generated can
+be passed through wires to produce mechanical motion, heat, or light. we
+must remain content, therefore, with assuming that electricity is energy
+or motion transmitted through the ether from molecule to molecule, or
+from atom to atom, of matter. scientific investigation has taught us how
+to produce it at will, how to harness it to our uses, and how to measure
+it; but not _what_ it is. that question may, perhaps, remain unanswered
+till the end of human history. a great difficulty attending the
+explanation of electrical action is this--that, except in one or two
+cases, no comparison can be established between it and the operation of
+gases and fluids. when dealing with the steam-engine, any ordinary
+intelligence soon grasps the principles which govern the use of steam in
+cylinders or turbines. the diagrams show, it is hoped, quite plainly
+"how it works." but electricity is elusive, invisible; and the greatest
+authorities cannot say what goes on at the poles of a magnet or on the
+surface of an electrified body. even the existence of "negative" and
+"positive" electricity is problematical. however, we see the effects,
+and we know that if one thing is done another thing happens; so that we
+are at least able to use terms which, while convenient, are not at
+present controverted by scientific progress.
+
+flag: frequently_substitute_frowny_face_for_smiley_face
+
+forms of electricity.
+
+rub a vulcanite rod and hold one end near some tiny pieces of paper.
+they fly to it, stick to it for a time, and then fall off. the rod was
+electrified--that is, its surface was affected in such a way as to be in
+a state of molecular strain which the contact of the paper fragments
+alleviated. by rubbing large surfaces and collecting the electricity in
+suitable receivers the strain can be made to relieve itself in the form
+of a violent discharge accompanied by a bright flash. this form of
+electricity is known as _static_.
+
+next, place a copper plate and a zinc plate into a jar full of diluted
+sulphuric acid. if a wire be attached to them a current of electricity
+is said to _flow_ along the wire. we must not, however, imagine that
+anything actually moves along inside the wire, as water, steam, or air,
+passes through a pipe. professor trowbridge says,[11] "no other agency
+for transmitting power can be stopped by such slight obstacles as
+electricity. a thin sheet of paper placed across a tube conveying
+compressed air would be instantly ruptured. it would take a wall of
+steel at least an inch thick to stand the pressure of steam which is
+driving a 10,000 horse-power engine. a thin layer of dirt beneath the
+wheels of an electric car can prevent the current which propels the car
+from passing to the rail, and then back to the power-house." there
+would, indeed, be a puncture of the paper if the current had a
+sufficient voltage, or pressure; yet the fact remains that _current_
+electricity can be very easily confined to its conductor by means of
+some insulating or nonconducting envelope.
+
+
+magnetism.
+
+the most familiar form of electricity is that known as magnetism. when a
+bar of steel or iron is magnetized, it is supposed that the molecules in
+it turn and arrange themselves with all their north-seeking poles
+towards the one end of the bar, and their south-seeking poles towards
+the other. if the bar is balanced freely on a pivot, it comes to rest
+pointing north and south; for, the earth being a huge magnet, its north
+pole attracts all the north-seeking poles of the molecules, and its
+south poles the south-seeking poles. (the north-_seeking_ pole of a
+magnet is marked n., though it is in reality the _south_ pole; for
+unlike poles are mutually attractive, and like poles repellent.)
+
+there are two forms of magnet--_permanent_ and _temporary_. if steel is
+magnetized, it remains so; but soft iron loses practically all its
+magnetism as soon as the cause of magnetization is withdrawn. this is
+what we should expect; for steel is more closely compacted than iron,
+and the molecules therefore would be able to turn about more easily.[12]
+it is fortunate for us that this is so, since on the rapid magnetization
+and demagnetization of soft iron depends the action of many of our
+electrical mechanisms.
+
+
+the permanent magnet.
+
+magnets are either (1) straight, in which case they are called bar
+magnets; or (2) of horseshoe form, as in figs. 50 and 51. by bending the
+magnet the two poles are brought close together, and the attraction of
+both may be exercised simultaneously on a bar of steel or iron.
+
+
+lines of force.
+
+in fig. 50 are seen a number of dotted lines. these are called _lines of
+magnetic force_. if you lay a sheet of paper on a horseshoe magnet and
+sprinkle it with iron dust, you will at once notice how the particles
+arrange themselves in curves similar in shape to those shown in the
+illustration. it is supposed (it cannot be _proved_) that magnetic force
+streams away from the n. pole and describes a circular course through
+the air back to the s. pole. the same remark applies to the bar magnet.
+
+
+electrical magnets.
+
+[illustration: fig. 50.--permanent magnet, and the "lines of force"
+emanating from it.]
+
+if an insulated wire is wound round and round a steel or iron bar from
+end to end, and has its ends connected to the terminals of an electric
+battery, current rotates round the bar, and the bar is magnetized. by
+increasing the strength and volume of the current, and multiplying the
+number of turns of wire, the attractive force of the magnet is
+increased. now disconnect the wires from the battery. if of iron, the
+magnet at once loses its attractive force; but if of steel, it retains
+it in part. instead of a simple horseshoe-shaped bar, two shorter bars
+riveted into a plate are generally used for electromagnets of this type.
+coils of wire are wound round each bar, and connected so as to form one
+continuous whole; but the wire of one coil is wound in the direction
+opposite to that of the other. the free end of each goes to a battery
+terminal.
+
+in fig. 51 you will notice that some of the "lines of force" are
+deflected through the iron bar a. they pass more easily through iron
+than through air; and will choose iron by preference. the attraction
+exercised by a magnet on iron may be due to the effort of the lines of
+force to shorten their paths. it is evident that the closer a comes to
+the poles of the magnet the less will be the distance to be travelled
+from one pole to the bar, along it, and back to the other pole.
+
+[illustration: fig. 51.--electro-magnet: a, armature; b, battery.]
+
+having now considered electricity in three of its forms--static,
+current, and rotatory--we will pass to some of its applications.
+
+
+the electric bell.
+
+a fit device to begin with is the electric bell, which has so largely
+replaced wire-pulled bells. these last cause a great deal of trouble
+sometimes, since if a wire snaps it may be necessary to take up carpets
+and floor-boards to put things right. their installation is not simple,
+for at every corner must be put a crank to alter the direction of the
+pull, and the cranks mean increased friction. but when electric wires
+have once been properly installed, there should be no need for touching
+them for an indefinite period. they can be taken round as many corners
+as you wish without losing any of their conductivity, and be placed
+wherever is most convenient for examination. one bell may serve a large
+number of rooms if an _indicator_ be used to show where the call was
+made from, by a card appearing in one of a number of small windows.
+before answering a call, the attendant presses in a button to return the
+card to its normal position.
+
+in fig. 52 we have a diagrammatic view of an electric bell and current.
+when the bell-push is pressed in, current flows from the battery to
+terminal t^1, round the electro-magnet m, through the pillar p and
+flat steel springs s and b, through the platinum-pointed screw, and back
+to the battery through the push. the circulation of current magnetizes
+m, which attracts the iron armature a attached to the spring s, and
+draws the hammer h towards the gong. just before the stroke occurs, the
+spring b leaves the tip of the screw, and the circuit is broken, so that
+the magnet no longer attracts. h is carried by its momentum against the
+gong, and is withdrawn by the spring, until b once more makes contact,
+and the magnet is re-excited. the hammer vibrations recur many times a
+second as long as the push is pressed in.
+
+[illustration: fig. 52.--sketch of an electric-bell circuit.]
+
+the electric bell is used for so many purposes that they cannot all be
+noted. it plays an especially important part in telephonic installations
+to draw the attention of the subscribers, forms an item in automatic
+fire and burglar alarms, and is a necessary adjunct of railway
+signalling cabins.
+
+
+the induction or ruhmkorff coil.
+
+reference was made in connection with the electrical ignition of
+internal-combustion engines (p. 101) to the _induction coil_. this is a
+device for increasing the _voltage_, or pressure, of a current. the
+two-cell accumulator carried in a motor car gives a voltage (otherwise
+called electro-motive force = e.m.f.) of 4â·4 volts. if you attach a wire
+to one terminal of the accumulator and brush the loose end rapidly
+across the other terminal, you will notice that a bright spark passes
+between the wire and the terminal. in reality there are two sparks, one
+when they touch, and another when they separate, but they occur so
+closely together that the eye cannot separate the two impressions. a
+spark of this kind would not be sufficiently hot to ignite a charge in a
+motor cylinder, and a spark from the induction coil is therefore used.
+
+[illustration: fig. 53.--sketch of an induction coil.]
+
+we give a sketch of the induction coil in fig. 53. it consists of a core
+of soft iron wires round which is wound a layer of coarse insulated
+wire, denoted by the thick line. one end of the winding of this
+_primary_ coil is attached to the battery, the other to the base of a
+hammer, h, vibrating between the end of the core and a screw, s, passing
+through an upright, t, connected with the other terminal of the battery.
+the action of the hammer is precisely the same as that of the armature
+of an electric bell. outside the primary coil are wound many turns of a
+much finer wire completely insulated from the primary coil. the ends of
+this _secondary_ coil are attached to the objects (in the case of a
+motor car, the insulated wire of the sparking-plug and a wire projecting
+from its outer iron casing) between which a spark has to pass. as soon
+as h touches s the circuit is completed. the core becomes a powerful
+magnet with external lines of force passing from one pole to the other
+over and among the turns of the secondary coil. h is almost
+instantaneously attracted by the core, and the break occurs. the lines
+of force now (at least so it is supposed) sink into the core, cutting
+through the turns of the "secondary," and causing a powerful current to
+flow through them. the greater the number of turns, the greater the
+number of times the lines of force are cut, and the stronger is the
+current. if sufficiently intense, it jumps any gap in the secondary
+circuit, heating the intermediate air to a state of incandescence.

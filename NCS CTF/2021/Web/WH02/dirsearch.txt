@@ -1,0 +1,25 @@
+[14:47:07] 200 -   73B  - /.git/description
+[14:47:07] 200 -  325B  - /.git/branches/
+[14:47:07] 302 -  313B  - /.git  ->  /.git/
+[14:47:07] 200 -  152B  - /.git/config
+[14:47:07] 200 -   20B  - /.git/COMMIT_EDITMSG
+[14:47:07] 200 -   23B  - /.git/HEAD
+[14:47:07] 200 -  356B  - /.git/info/
+[14:47:07] 200 -  738B  - /.git/
+[14:47:07] 200 -  240B  - /.git/info/exclude
+[14:47:07] 200 -  385B  - /.git/logs/
+[14:47:07] 302 -  313B  - /.git/logs/refs  ->  /.git/logs/refs/
+[14:47:07] 200 -    1KB - /.git/hooks/
+[14:47:07] 200 -  342B  - /.git/logs/HEAD
+[14:47:07] 302 -  313B  - /.git/logs/refs/heads  ->  /.git/logs/refs/heads/
+[14:47:07] 200 -  145B  - /.git/index
+[14:47:07] 200 -  389B  - /.git/refs/
+[14:47:07] 200 -  342B  - /.git/logs/refs/heads/master
+[14:47:07] 302 -  313B  - /.git/refs/heads  ->  /.git/refs/heads/
+[14:47:07] 200 -   41B  - /.git/refs/heads/master
+[14:47:07] 200 -  610B  - /.git/objects/
+[14:47:07] 302 -  313B  - /.git/refs/tags  ->  /.git/refs/tags/
+[14:47:50] 200 -    1KB - /index.html
+[14:48:08] 200 -    0B  - /soap/
+[13:53:51] 500 -  366B  - /153555
+[14:04:53] 500 -  366B  - /102065

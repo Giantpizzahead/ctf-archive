@@ -1,0 +1,6 @@
+Display name:		Chris Kellogg
+Recipient display name:	Chris Kellogg
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=5c51d1fe97734bdfa7fa0b9b9a29a254-Chris.Kello
+Address type:		EX
+Recipient type:		To
+

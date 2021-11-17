@@ -1,0 +1,14 @@
+Message:
+Client submit time:			Mar 04, 2021 03:25:18.329134400 UTC
+Delivery time:				Mar 04, 2021 03:25:18.329134400 UTC
+Creation time:				Mar 04, 2021 03:25:18.257451400 UTC
+Size:					4172
+Flags:					0x00000009 (Read, Unsent)
+Display name:				MyAnalytics
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
+Contact:
+File under:				
+Email address 1:			no-reply@microsoft.com

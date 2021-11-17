@@ -1,0 +1,16 @@
+Message:
+Client submit time:			Feb 17, 2021 17:31:04.000000000 UTC
+Delivery time:				Feb 17, 2021 17:31:07.311001800 UTC
+Creation time:				Feb 17, 2021 17:31:06.953570900 UTC
+Size:					102788
+Flags:					0x00000003 (Read, Unmodified)
+Conversation topic:			Message Center Major Change Update Notification
+Subject:				Message Center Major Change Update Notification
+Sender name:				Microsoft 365 Message center
+Sender email address:			o365mc@microsoft.com
+Sent representing name:			Microsoft 365 Message center
+Sent representing email address:	o365mc@microsoft.com
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+

@@ -1,0 +1,6 @@
+Display name:		Jon Sampson
+Recipient display name:	Jon Sampson
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=e9b75f833d9543e4bcf6cebb73e36220-Jon.Sampson
+Address type:		EX
+Recipient type:		To
+

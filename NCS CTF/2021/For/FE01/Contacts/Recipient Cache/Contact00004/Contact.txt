@@ -1,0 +1,14 @@
+Message:
+Client submit time:			Mar 04, 2021 03:25:18.224593700 UTC
+Delivery time:				Mar 04, 2021 03:25:18.224593700 UTC
+Creation time:				Mar 04, 2021 03:25:18.152910200 UTC
+Size:					4360
+Flags:					0x00000009 (Read, Unsent)
+Display name:				Microsoft 365 Message center
+Importance:				Normal
+Priority:				Normal
+Sensitivity:				None
+
+Contact:
+File under:				
+Email address 1:			o365mc@microsoft.com

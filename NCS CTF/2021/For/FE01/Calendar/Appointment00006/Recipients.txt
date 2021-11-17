@@ -1,0 +1,6 @@
+Display name:		Steven Hark
+Recipient display name:	Steven Hark
+Email address:		/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=690cd8bd2f9e4db1826694739b2c7b3b-steven.hark
+Address type:		EX
+Recipient type:		To
+

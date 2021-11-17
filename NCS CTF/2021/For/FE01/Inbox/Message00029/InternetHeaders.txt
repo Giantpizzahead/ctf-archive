@@ -1,0 +1,93 @@
+Received: from LOYP123MB2925.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:ea::8) by
+ CWLP123MB4241.GBRP123.PROD.OUTLOOK.COM with HTTPS; Mon, 8 Mar 2021 11:22:10
+ +0000
+Authentication-Results: testymctestfaces.com; dkim=none (message not signed)
+ header.d=none;testymctestfaces.com; dmarc=none action=none
+ header.from=testymctestfaces.com;
+Received: from LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:1a2::11)
+ by LOYP123MB2925.GBRP123.PROD.OUTLOOK.COM (2603:10a6:600:ea::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3890.26; Mon, 8 Mar
+ 2021 11:22:10 +0000
+Received: from LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::1151:6c55:8deb:ebe2]) by LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+ ([fe80::1151:6c55:8deb:ebe2%5]) with mapi id 15.20.3912.027; Mon, 8 Mar 2021
+ 11:22:10 +0000
+Content-Type: application/ms-tnef; name="winmail.dat"
+Content-Transfer-Encoding: binary
+From: Chris Kellogg <Chris.Kellogg@testymctestfaces.com>
+To: Steven Hark <steven.hark@testymctestfaces.com>
+Subject: Hardware Delivered
+Thread-Topic: Hardware Delivered
+Thread-Index: AQHXFA0pWWnuKf///Ui5wYn9y580hw==
+Date: Mon, 8 Mar 2021 11:22:10 +0000
+Message-ID:
+ <LO2P123MB452241C33A368A28DE6536C29C939@LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM>
+Accept-Language: en-GB, en-US
+Content-Language: en-GB
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+ <LO2P123MB452241C33A368A28DE6536C29C939@LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM>
+MIME-Version: 1.0
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Organization-AuthSource: LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-Originating-IP: [2a02:c7f:2609:b600:d444:feac:ee88:60b9]
+X-MS-Exchange-Organization-Network-Message-Id:
+ cec1dd1b-3312-4852-6d37-08d8e2246a2c
+X-MS-PublicTrafficType: Email
+Return-Path: Chris.Kellogg@testymctestfaces.com
+X-MS-Exchange-Organization-ExpirationStartTime: 08 Mar 2021 11:22:10.2012
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Office365-Filtering-Correlation-Id: cec1dd1b-3312-4852-6d37-08d8e2246a2c
+X-MS-TrafficTypeDiagnostic: LOYP123MB2925:
+X-MS-Oob-TLC-OOBClassifiers: OLM:2089;
+X-Microsoft-Antispam: BCL:0;
+X-Forefront-Antispam-Report:
+ CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM;PTR:;CAT:NONE;SFS:;DIR:INB;
+X-MS-Exchange-AntiSpam-MessageData:
+ =?us-ascii?Q?paRTkF4SGD9lZdriMGwLFeQWqkTPOAWKEsDF/dnJEJUgkT00YAJGwE81YosS?=
+ =?us-ascii?Q?Gq73QHIFb8VCJWKSj7ggTlJJ7VtESBHjA7tLAp34yuLtYeejSSgAW0dIDjEU?=
+ =?us-ascii?Q?zCikDTEaDIyt2Y8Ntt0KAuR87lzkdeRWa+u45J6/2n4GsMkuvG1EnX5lK+ID?=
+ =?us-ascii?Q?PRBljknqN8lr6vYVnPKpm3EknUH+uO0817eRSewGEZd3KSp0wCzN9bjqbPO+?=
+ =?us-ascii?Q?1sulEREA5UrGgHcaIWa9AXSB9U7OFd0+2cP5jXAh18SIXxHisHp37Zjoz1NM?=
+ =?us-ascii?Q?DTf44vc0k8Xdwrj/zEp3GWOiVYxM8GSypegRET0dN951jkeBxMuak1oJVbL1?=
+ =?us-ascii?Q?mSWTiDgpAKL3Q+d/AdT70kLaIRhTSQV2y8X0RMzplnzZli5zBUT5khevJ6gF?=
+ =?us-ascii?Q?Q7dCmG7SNObaa3a/PfwI4eHW9NqSEpwTXxrI75bLJeRbjkysCc3tb1piuYKm?=
+ =?us-ascii?Q?2HRCTE7zRs5a4FHHpSfGRIIktIoBsFpTt6w+8d8xB6U4+sqmovDIg5lMBzdi?=
+ =?us-ascii?Q?OXBKEiMy+qkCmxy4YgyR6ND4p0o6mb5EwwyooYMYdOiwqUNz04lotlbw9l7m?=
+ =?us-ascii?Q?lSB5RPjyKM5CXffToZLVGupmhlv/be6Ax+sSkjuJjrKIlANlmnc6++T9Y+cS?=
+ =?us-ascii?Q?gkJ8MTIEwvRzqeDfvYmNGxiCaZ4jko/v/nfa1Jgppiec6XGEsq26xgLOYqGH?=
+ =?us-ascii?Q?LNYx8kQCFpY1ApDObQ89INfjboFhT7KFnNGZIHSAPkMb6kB+FlYB6o4dVmrZ?=
+ =?us-ascii?Q?CBXNdUGI58XyobA8MU7PtYeWCnyhb+lB5tKgGUH4D5LCO6AfNwUZul7p57Vq?=
+ =?us-ascii?Q?rAsP2asvyYGIwumxx+iKSdQXyrFYgtZuiiuruX5mtM2VUS070Pe/TvpsiRYw?=
+ =?us-ascii?Q?B573F6FV4TU4sJrikSwLuUdjchwAX0mPSjvrWQ8yZpeJ9SrDVP0bpLqZJ2+s?=
+ =?us-ascii?Q?gOGno+sQLB1olrqwHmbL5PTqZaUxHYryE0bQPtb3zyQlcuUAprwF0kg08MRV?=
+ =?us-ascii?Q?7gGQj7DNyUTZd6ZsivEkVDUVvxUhg7sNJeZmfo/bZhXI5B0RrxMVkMsJx9BE?=
+ =?us-ascii?Q?EKqw9xlRxmlU4sWjcUKBj5UaxhmePh6m+Ees5xe/hT0qNvryP+PQoH5f/9gV?=
+ =?us-ascii?Q?tAaJFjTkavT0iIsGJ7f0V6A1Tubfoy1D1aBeGXLLKb4WdtaAoPWWiJHX7+q8?=
+ =?us-ascii?Q?KmdU4u/MgvAvJiPgmCkA8rbQ9dm1I4G/fj7QWCeClvuJyCV5fz+IkTPGz2fo?=
+ =?us-ascii?Q?9eP1hf+ak3STjobharGR1H9mHUT2VoYkkZ6bkP+KL7UbONDAfurxuKtqiR9f?=
+ =?us-ascii?Q?u22l9Sq60glg0LNma93DF9av/vHycK63b6brNQ3Q753QNzsPOltc0Wg9d7r9?=
+ =?us-ascii?Q?F/ECE9Y=3D?=
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Mar 2021 11:22:10.0095
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 503b535a-28fe-441e-855d-67a085417944
+X-MS-Exchange-CrossTenant-AuthSource: LO2P123MB4522.GBRP123.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-Network-Message-Id: cec1dd1b-3312-4852-6d37-08d8e2246a2c
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: VSS2WGCO1ReVSjLt03XZAT/VZVcqaG6dUBfHX2uUC/SBfTlDyx/rneaBw61PmTa9+ZmJauM+q6Ta4kdOjfaP0u2XH+WjD1K1RSt8Prw5g9fbyTq/g0DZsr7FpV+cK3OL
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: LOYP123MB2925
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:00.4952753
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.3890.038
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(750129)(520011016)(706158)(944506458)(944626604);
+X-Microsoft-Antispam-Message-Info:
+	pr8X2QWTwurblFkbuGwRbXeWvK7iGpX7rERLaY9xWRNhjuNDzIFUIkLZu5Ep+MEZkNLaOmOL1U45pgQ0kl7moKQ2WsXeaNT/Xfe4KwGt7siEGhK+MxfLjIx1fKHCMh4eHADuLOKqmOlsOnkRxG/WezVK6I+bmh8l4TNI7qpPUuq6l3dcxy5hN4ALtBttgd1ZNp3foq+xn4SVR7KyWJmoxL8Din/cQ40t+88whZ/ZKs/+OWoCUaudPmvmC9fW/ms+aCfp3flSzTGlmGoR9jqzLwklyOfb1OsUVF2yP5qVrnOqpEr6ddTMaYUlEN65bqgcYYNB9uLYWOf6Jsaz4uW1d63tpq33r4AdhRwDwrmQC9gDBKoqvSa0gZfbBkoeG9wpXf4UPSEnLmN8dOrSVr+7eyZpwJ3cB5yTQ6lj+A/CHsWEM0N3Z3MnbHg8r8bK8J4MUVBagKljH1+FG6FrOl1395A4mRlQbPaugeqDukF5uf1uVMJfKHOJff+qCT13ENkC+sJ68FxpwrTRKtzUw63AjMIZOtPbukbt7cj/nzAPlqM=
