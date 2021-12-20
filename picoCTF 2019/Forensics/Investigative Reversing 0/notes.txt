@@ -1,0 +1,18 @@
+Puts picoCT as plaintext.
+
+For characters 6 to 14: Add 5 to the ord() value.
+
+For character 15: Subtract 3 to the ord() value.
+
+For characters 16 to 25: Do nothing.
+
+
+The encrypted flag is picoCTKk5zsid6q_9de03050}.
+
+Flag: picoCTF{f0und_1lb9de03050}
+
+7069636f43544b806b357a73696436715f39646530333035307d
+
+picoCTKk5zsid6q_9de03050}
+
+picoCTF{f0und_1t_9de03050}

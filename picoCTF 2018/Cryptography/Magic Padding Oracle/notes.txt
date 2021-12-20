@@ -1,0 +1,124 @@
+I did it. After a whole day, I actually did it. Wow. :D
+
+Generated cookie blocks:
+5bdeb6e07896a74564f09fbf6f7bf2ad
+02e00d52ba2f092035a461e5bf578f27
+00c1b1ea55d2765746deac2ad64f433e
+1014b403a6b1f7adcaa460c8010d05d0
+a4326ed9573d1fb5f5c47f859f40f0f0
+
+Cookie:
+5bdeb6e07896a74564f09fbf6f7bf2ad02e00d52ba2f092035a461e5bf578f2700c1b1ea55d2765746deac2ad64f433e1014b403a6b1f7adcaa460c8010d05d0a4326ed9573d1fb5f5c47f859f40f0f0
+
+picoCTF{0r4cl3s_c4n_l34k_c644af03}
+________________________________________________________________________________________________________
+
+New plan to ENCRYPT something:
+No, it'll DECRYPT the message first. It makes it easier, since all I have to do is follow the website. Worry about encryption later.
+
+1. Start from the last byte of the last block of ciphertext. Submit random bytes for the block before the current one until you get a valid padding. Make sure to submit both the previous ciphertext block and the current one.
+Ex: For first iteration, submit:
+00000000000000000000000000000000fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000000000001fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000000000002fd8703dce82b480d21dfb56717e3a1ec
+...
+000000000000000000000000000000fffd8703dce82b480d21dfb56717e3a1ec
+
+2. Once you get a working block (JSON found in output or KeyError found in output or expired found in output), that means that the plaintext of the last byte is somewhere between \x01 and \xa0. To check what it is, continuously submit blocks with the left byte changed by one. Stop once the error is not a padding error. The # of padding error checks you had to run + the location of the byte (from the right, starting at 1) is what the byte's value is.
+Ex: Assuming 83 worked, you'd submit:
+00000000000000000000000000000183fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000000010083fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000001000083fd8703dce82b480d21dfb56717e3a1ec
+...
+01000000000000000000000000000083fd8703dce82b480d21dfb56717e3a1ec
+Until the error is not a padding error or you reach the end. The # of times you submitted (not including the failed check) + the location of the byte (from the right, starting at 1) is the byte value of that byte.
+
+3. Figure out the original plaintext at the location of the last byte. This is solved using the following formula:
+Plaintext at current byte = Found value of byte ^ Last byte of previous block of original ciphertext (not modified) ^ Last byte of previous block of our modified ciphertext
+Where ^ is XOR. Save this to a found variable.
+
+4. Figure out the byte needed to check the next byte for padding errors (should be current location from right + 1). After finding what character should go here, use this formula to permanently set that byte in your generated ciphertext block:
+Correct byte = Value to be set ^ Original plaintext at this byte ^ Original ciphertext at this byte in the previous ciphertext block
+
+5. Check the next byte (one to the left). Continue doing this until you reach the end of the block. Then, check all the other blocks, going in reverse order.
+
+6. Output the decrypted result.
+
+_______________________________________________________________________________________________________
+
+Plan to encrypt a message:
+
+1. Generate a random last block of ciphertext. Completely random. Really. Just do it.
+
+2. Start from the last block of ciphertext. Brute-force the correct padding byte in the 2nd last block, just like in decryption step 1.
+
+3. Do decryption steps 2 and 4, skipping 3 since there is no original plaintext (the cipher block was randomly genned).
+
+4. Figure out the correct ciphered byte to use to produce the target character. Use the formula:
+correct_byte = ord(target_character) ^ original_byte ^ previous_cipher_block_byte
+Save this correct_byte into a list.
+
+5. Repeat steps 2 to 4 with the next byte (one to the left). Continue doing this until you reach the end of the block.
+
+6. Reverse the correct_bytes list to get the full cipher block that the 2nd last block should be. Then, check all the other blocks in the same way, using the newly made cipher block (repeat steps 2 to 5).
+
+7. Output all the blocks to allow input of the whole cookie.
+
+Note: This will generate a completely random and meaningless IV (first block), but it doesn't matter, since the code never checks this IV.
+_______________________________________________________________________________________________________
+
+Padding is apparently done by adding the # of pads # of pads times.
+
+In other words, if 4 characters need to be padded, it would add chr(4) * 4 to the end.
+For x characters, it would be chr(x) * x.
+Also, if 0 characters need to be padded, it adds an entire new block to avoid ambiguity.
+So, for a perfect blocked input, it would add chr(16) * 16.
+
+Sample cookie:
+5468697320697320616e204956343536
+0db5d4edcf799c3a6cfc502b10ab1242
+c1c2808d4b71e31a9ba6fb770194254f
+1a6579f76b6bb0aa3206023e22f4f8b8
+ddd7ecf14579dbbfac853ebcc7bf8d11
+fd8703dce82b480d21dfb56717e3a1ec
+
+Edited cookie:
+5468697320697320616e204956343536
+0db5d4edcf799c3a6cfc502b10ab1242
+c1c2808d4b71e31a9ba6fb770194254f
+1a6579f76b6bb0aa3226023e22f4f8b8
+ddd7ecf14579dbbfac853ebcc7bf8d11
+fd8703dce82b480d21dfb56717e3a1ec
+
+Edited Block's Plaintext = Unedited Block's Plaintext ^ Last Unedited Block's Ciphertext ^ Our Edited Block's Ciphertext
+
+Steps for the exploit (I think):
+1. Start from the last block of ciphertext. Try every possible value for the last byte of the 2nd last block of ciphertext (two hexadecimals). Send a generated block before the actual ciphertext block.
+Ex: If the last block is fd8703dce82b480d21dfb56717e3a1ec, try:
+00000000000000000000000000000000fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000000000001fd8703dce82b480d21dfb56717e3a1ec
+00000000000000000000000000000002fd8703dce82b480d21dfb56717e3a1ec
+...
+000000000000000000000000000000fffd8703dce82b480d21dfb56717e3a1ec
+
+Repeat this sending until there is no padding error (the last byte is somewhere in between \x01 and \xa0).
+To check if it is actually \x01, XOR
+
+NONOONONONONNONOON
+
+Last byte of plaintext = 
+
+
+Target cookie:
+{"username": "guest", "is_admin": "true", "expires": "2020-8-9"}
+Length: 59
+
+P'2 = Pn ^ Cn-1 ^ C'
+
+Sample cookie (guess):
+{"username": "guest", "is_admin": "false", "expires": "????-?-?"}
+
+Result from padding exploit program:
+{"username": "guest", "expires": "2000-01-07", "is_admin": "false"}\x13\x13...(13 times for the padding)
+New target cookie:
+{"username": "hi", "expires": "2020-09-09", "is_admin": "true"}\x01

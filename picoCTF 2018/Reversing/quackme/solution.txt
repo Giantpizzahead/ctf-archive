@@ -1,0 +1,114 @@
+   0x08048642 <+0>:     push   ebp
+   0x08048643 <+1>:     mov    ebp,esp
+   0x08048645 <+3>:     sub    esp,0x28
+=> 0x08048648 <+6>:     call   0x80485db <read_input>
+   0x0804864d <+11>:    mov    DWORD PTR [ebp-0x14],eax
+   0x08048650 <+14>:    sub    esp,0xc
+   0x08048653 <+17>:    push   DWORD PTR [ebp-0x14]
+   0x08048656 <+20>:    call   0x8048490 <strlen@plt>
+   0x0804865b <+25>:    add    esp,0x10
+   0x0804865e <+28>:    mov    DWORD PTR [ebp-0x10],eax
+   0x08048661 <+31>:    mov    eax,DWORD PTR [ebp-0x10]
+   0x08048664 <+34>:    add    eax,0x1
+   0x08048667 <+37>:    sub    esp,0xc
+   0x0804866a <+40>:    push   eax
+   0x0804866b <+41>:    call   0x8048460 <malloc@plt>
+   0x08048670 <+46>:    add    esp,0x10
+   0x08048673 <+49>:    mov    DWORD PTR [ebp-0xc],eax
+   0x08048676 <+52>:    cmp    DWORD PTR [ebp-0xc],0x0
+If no jump here, that means the program is out of memory. Nothing relevant.
+   0x0804867a <+56>:    jne    0x8048696 <do_magic+84>
+   0x0804867c <+58>:    sub    esp,0xc
+   0x0804867f <+61>:    push   0x8048884
+   0x08048684 <+66>:    call   0x8048470 <puts@plt>
+   0x08048689 <+71>:    add    esp,0x10
+   0x0804868c <+74>:    sub    esp,0xc
+   0x0804868f <+77>:    push   0xffffffff
+   0x08048691 <+79>:    call   0x8048480 <exit@plt>
+JUMPS TO HERE \/\/\/
+   0x08048696 <+84>:    mov    eax,DWORD PTR [ebp-0x10]     // Gets the length of the input string
+   0x08048699 <+87>:    add    eax,0x1			    // Adds 1 to the length of the input string
+   0x0804869c <+90>:    sub    esp,0x4
+   0x0804869f <+93>:    push   eax
+   0x080486a0 <+94>:    push   0x0
+   0x080486a2 <+96>:    push   DWORD PTR [ebp-0xc]
+   0x080486a5 <+99>:    call   0x80484c0 <memset@plt>
+   0x080486aa <+104>:   add    esp,0x10
+   0x080486ad <+107>:   mov    DWORD PTR [ebp-0x1c],0x0
+   0x080486b4 <+114>:   mov    DWORD PTR [ebp-0x18],0x0
+   0x080486bb <+121>:   jmp    0x804870b <do_magic+201>
+<BEGIN MAIN DECRYPTING ALGORITHM>
+   0x080486bd <+123>:   mov    eax,DWORD PTR [ebp-0x18]    // ebp-0x18 is i in a for loop, iterating up to input.length()
+   0x080486c0 <+126>:   add    eax,0x8048858
+   0x080486c5 <+131>:   movzx  ecx,BYTE PTR [eax]          // ?
+   0x080486c8 <+134>:   mov    edx,DWORD PTR [ebp-0x18]    // Moves i into edx
+   0x080486cb <+137>:   mov    eax,DWORD PTR [ebp-0x14]    // Moves location of input string into eax
+   0x080486ce <+140>:   add    eax,edx                     // Makes the for loop work, for each character 
+   0x080486d0 <+142>:   movzx  eax,BYTE PTR [eax]          // Sets eax equal to the ith index character in our input
+   0x080486d3 <+145>:   xor    eax,ecx			   // MAIN DECRYPTER
+   0x080486d5 <+147>:   mov    BYTE PTR [ebp-0x1d],al      // Moves XOR result into al
+   0x080486d8 <+150>:   mov    edx,DWORD PTR ds:0x804a038  // Moves the instructions of the duck web into edx
+   0x080486de <+156>:   mov    eax,DWORD PTR [ebp-0x18]    // Moves i into eax
+   0x080486e1 <+159>:   add    eax,edx                     // \/ \/ \/
+   0x080486e3 <+161>:   movzx  eax,BYTE PTR [eax]          // Gets the ith character in the introduction string
+   0x080486e6 <+164>:   cmp    al,BYTE PTR [ebp-0x1d]      // Compares ith character of the intro string with the previous XOR result
+
+Compare the ith character of the intro string with the XORed value of the ith character of our input and some value in ecx (probably the key)
+
+If comparsion matches, then 1 is added to var. If var is equal to 19, the flag is printed.
+
+So, make an input string that, when XORed with the key values, gives the right value 19 times!
+
+The intro string:
+You have now entered the Duck Web, and you're in for a honkin' good time.\nCan you figure out my trick?
+
+   0x080486e9 <+167>:   jne    0x80486ef <do_magic+173>    // Jumps if the previous comparison wasn't equal
+   0x080486eb <+169>:   add    DWORD PTR [ebp-0x1c],0x1    // Adds 1 to var
+   0x080486ef <+173>:   cmp    DWORD PTR [ebp-0x1c],0x19   // Compares var to 19, if equal, the flag is printed
+   0x080486f3 <+177>:   jne    0x8048707 <do_magic+197>
+   0x080486f5 <+179>:   sub    esp,0xc
+   0x080486f8 <+182>:   push   0x80488ab
+   0x080486fd <+187>:   call   0x8048470 <puts@plt>        // The flag putter
+   0x08048702 <+192>:   add    esp,0x10
+   0x08048705 <+195>:   jmp    0x8048713 <do_magic+209>
+   0x08048707 <+197>:   add    DWORD PTR [ebp-0x18],0x1
+<END MAIN DECRYPTING ALGORITHM>
+STARTS HERE \/\/\/
+   0x0804870b <+201>:   mov    eax,DWORD PTR [ebp-0x18]
+   0x0804870e <+204>:   cmp    eax,DWORD PTR [ebp-0x10]    // Checks if it's reached the end of the input string
+MUST JUMP HERE \/\/\/ TO PRINT THE FLAG
+   0x08048711 <+207>:   jl     0x80486bd <do_magic+123>    // Jumps if end of string has not been reached
+   0x08048713 <+209>:   leave
+   0x08048714 <+210>:   ret
+
+AL is the last byte of EAX
+
+First run:
+ecx: 41
+eax (after getting character): 97 = a
+after XOR: 72
+eax (after getting intro character): 89 = Y
+var = 0
+
+Iteration 2 (i=1):
+ecx: 6
+eax (input char): 98 = b
+after XOR: 100
+eax (intro char): 111 = o
+character in ebp
+
+0x29    0x06    0x16    0x4f    0x2b    0x35    0x30    0x1e
+0x51    0x1b    0x5b    0x14    0x4b    0x08    0x5d    0x2b
+0x50    0x14    0x5d    0x00
+
+Duck web intro hex = 0x596f752068617665206e6f7720656e74657265642074686520
+
+XOR key hex = 2906164f2b35301e511b5b144b085d2b50145d00191759525d
+
+Result = 7069636f4354467b717534636b6d335f35663864396331377d
+
+To ASCII = picoCTF{qu4ckm3_5f8d9c17} (The flag! :D)
+
+Solution: By analyzing the program's objdump and debugging it in gdb, you can figure out that the program is running a for loop on every character, and XORing that character with a key. Then, the result of this is compared with the ith character in the duck web intro text. This comparison needs to match 0x19 times (25) to print the "winner" message.
+
+To reverse the XOR and figure out the required plaintext input, you can just XOR the intro text with the key. If you do this, you get picoCTF{qu4ckm3_5f8d9c17} (the flag).

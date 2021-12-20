@@ -1,0 +1,12 @@
+witches[] = ["weatherwax", "ogg", "garlick", "nitt", "aching", "dismass"]
+
+first = 3
+second = 0
+third = 1
+fourth = 2
+fifth = 5
+sixth = 4
+
+password = "dismass.ogg.weatherwax.aching.nitt.garlick"
+
+picoCTF{what.is.your.favourite.colour}

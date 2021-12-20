@@ -1,0 +1,18 @@
+rax=59
+rdi=/bin/sh
+rsi=0
+rdx=0
+
+0x000000000005d510: pop rcx; ret;
+0x000000000008ef1b: pop rdx; ret; 
+0x00000000000b9021: mov qword ptr [rdx], rcx; ret; 
+0x00000000000b2750: xor edx, edx; mov eax, edx; ret;
+0x0000000000052ffb: mov eax, edx; ret;
+0x0000000000c66070: mov eax, esi; ret;
+0x000000000009cfc2: syscall; ret;
+
+set rax:
+
+
+set rsi:
+mov rsi, qword ptr [rax + 8]; ret;

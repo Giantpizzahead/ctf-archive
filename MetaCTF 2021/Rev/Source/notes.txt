@@ -1,0 +1,2 @@
+Extract the exe, then extract the nupkg, then use below to get source code, view app.js for the Base64 encoded flag
+https://medium.com/how-to-electron/how-to-get-source-code-of-any-electron-application-cbb5c7726c37

@@ -1,0 +1,7 @@
+https://metaproblems.com/858cdff94bcf63e59aafeebebb7bc304/e885e8dd74b88b3fd4a19c3d6e18.html
+
+MetaCTF{aint_no_javascript_ever_gonna_stop_a_hacker}
+
+electron --inspect-brk
+Connect Electron
+history[0] == index.html

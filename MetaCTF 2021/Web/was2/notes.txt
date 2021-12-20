@@ -1,0 +1,35 @@
+$var0 and $global0 = Pointer to user input
+
+func200: gets the length of the inputted flag, saves it in var5
+a = int value of first 4 chars
+b = a ^ -1
+c = a - 16843009
+d = b & c
+e = d & -2139062144
+if equals zero: repeat???
+
+24?
+
+if length != 24: exit
+else:
+
+so the flag is 24 characters long
+
+05? at 500ED4
+
+b = 5
+
+5 -> D
+
+for loop (i < length of flag):
+b = b + 8
+c = b % 15
+d = data3360[i]
+e = d - c
+f = userinput[i?]
+if e != f: quit and wrong
+i++
+
+use the above to write a solve script!
+
+address 3360 has some data!

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>meta-activity-monitor</id>
+    <version>1.0.0</version>
+    <title>meta-activity-monitor</title>
+    <authors>MetaCTF</authors>
+    <owners>MetaCTF</owners>
+    <iconUrl>https://raw.githubusercontent.com/electron/electron/master/shell/browser/resources/win/electron.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CPU activity monitor</description>
+    <copyright>Copyright © 2021 MetaCTF</copyright>
+  </metadata>
+</package>

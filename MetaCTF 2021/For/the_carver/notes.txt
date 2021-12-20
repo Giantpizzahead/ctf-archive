@@ -1,0 +1,955 @@
+{"GUID":"263c07a58a","Type":2,"Meta":"","IV":"Ck6VTEza7+hjhT5zTmCoGQ==","EncryptedMessage":"NH7qBHRZqRuowbXnGXXHLg==","HMAC":"n6OIMghnSukBbKxSVQz3hY3J2VED6tI6GAIDqStv6Cw="}
+{"GUID":"263c07a58a","Type":0,"Meta":"e6ed272c3c","IV":"Ac2ZSitBO36Y7BipzFs3LA==","EncryptedMessage":"z4RtluLvOAvVFWYcAAHaqLvM8oDqCPHNQijR0O7clX/AKtGobLej1YWJloqDk8rwOYS5DjVc0wPJtY6tTB+qNyJRl0LhEOEgjrLTfQfxpYseNsAUG+AYRhQxDls0jP/S03/+T/BNCgFgAHiH3QQTvrixylO2agfJqFQ3QzNJM+E53UFRY696/lcHW9waIDeLe6cE+j6VSOPDt2qHgUabbsrQCvzuRvHwDzJ1xsb83UJgVMLVMciOu4VxazlKON8KRMfHObfd5/H/mXd8gOgK+98EGMtPiFOdxuEmFGY6vcuuzsSmYBqYfzjXqmlqSZCCXANixbClpR2euqS4vQgIlJodUaf7H4GAtrQcwdeETQ0=","HMAC":"f1PSUHMnINGECc35BBMPVb8NEUXA12FOhLXZRtv/SMo="}
+
+Stack objects:
+OS Thread Id: 0x117c (0)
+RSP/REG          Object           Name
+r13              0000000002185260 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE108 0000000001ffc4a0 System.String    i=a19ea23062db990386a3a478cb89d52e&data=eyJHVUlEIjoiMjYzYzA3YTU4YSIsIlR5cGUiOjAsIk1ldGEiOiJlNmVkMjcyYzNjIiwiSVYiOiJBYzJaU2l0Qk8zNlk3QmlwekZzM0xBPT0iLCJFbmNyeXB0ZWRNZXNzYWdlIjoiejRSdGx1THZPQXZWRldZY0FBSGFxTHZNOG9EcUNQSE5RaWpSME83Y2xYL0FLdEdvYkxlajFZV0psb3FEazhyd09ZUzVEalZjMHdQSnRZNnRUQitxTnlKUmwwTGhFT0VnanJMVGZRZnhwWXNlTnNBVUcrQVlSaFF4RGxzMGpQL1MwMy8rVC9CTkNnRmdBSGlIM1FRVHZyaXh5bE8yYWdmSnFGUTNRek5KTStFNTNVRlJZNjk2L2xjSFc5d2FJRGVMZTZjRStqNlZTT1BEdDJxSGdVYWJic3JRQ3Z6dVJ2SHdEekoxeHNiODNVSmdWTUxWTWNpT3U0VnhhemxLT044S1JNZkhPYmZkNS9IL21YZDhnT2dLKzk4RUdNdFBpRk9keHVFbUZHWTZ2Y3V1enNTbVlCcVlmempYcW1scVNaQ0NYQU5peGJDbHBSMmV1cVM0dlFnSWxKb2RVYWY3SDRHQXRyUWN3ZGVFVFEwPSIsIkhNQUMiOiJmMVBTVUhNbklOR0VDYzM1QkJNUFZiOE5FVVhBMTJGT2hMWFpSdHYvU01vPSJ9&session=75db-99b1-25fe4e9afbe58696-320bea73
+00000000003AE118 00000000020b8c40 System.Uri
+00000000003AE178 0000000002069358 System.Text.SBCSCodePageEncoding
+00000000003AE208 000000000207bf78 System.String    POST
+00000000003AE248 0000000001fe2b78 System.String    http://52.44.115.131:8080
+00000000003AE260 000000000218e398 GruntExecutor.CookieWebClient
+00000000003AE270 00000000020fb890 System.Byte[]
+00000000003AE2A8 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE2D0 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE2D8 000000000258fbc0 System.Threading.Thread
+00000000003AE2E8 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE2F8 0000000002184c58 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE300 0000000002185260 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE310 0000000002184520 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE328 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE340 000000000258fbc0 System.Threading.Thread
+00000000003AE350 0000000002185260 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE370 0000000002184520 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE378 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE380 0000000002184c58 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE398 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE3A8 000000000258fbc0 System.Threading.Thread
+00000000003AE3B0 000000000258fbc0 System.Threading.Thread
+00000000003AE3C0 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE3C8 00000000021b30c8 GruntExecutor.TaskingMessenger
+00000000003AE3E8 0000000002184520 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE3F0 0000000002184c58 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE3F8 0000000002185260 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AE408 0000000001fe2f58 System.String    <html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        // Hello World! {0}
+    </body>
+</html>
+00000000003AE410 0000000001fe2e70 System.String    i=a19ea23062db990386a3a478cb89d52e&data={0}&session=75db-99b1-25fe4e9afbe58696-320bea73
+00000000003AE418 0000000001fe2f58 System.String    <html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        // Hello World! {0}
+    </body>
+</html>
+00000000003AE420 00000000021851d0 System.Func`2[[System.String, mscorlib],[System.String, mscorlib]]
+00000000003AE428 000000000218e320 GruntExecutor.HttpMessenger
+00000000003AE440 0000000001ffeac8 GruntExecutor.Grunt+<>c__DisplayClass0_1
+00000000003AE448 000000000218beb8 System.Collections.Generic.List`1[[SharpSploit.Generic.SharpSploitResultProperty, ged1rsgm.zxi]]
+00000000003AE460 00000000021f6da0 System.Random
+00000000003AE470 00000000021f6d60 System.Collections.Generic.List`1[[System.Collections.Generic.KeyValuePair`2[[System.String, mscorlib],[System.Threading.Thread, mscorlib]], mscorlib]]
+00000000003AE478 000000000218e0d0 System.Int32
+00000000003AE490 000000000218aff0 System.String    Grunt
+00000000003AE498 00000000021868d8 System.String    Microsoft Windows NT 6.2.9200.0
+00000000003AE4B0 0000000001fe2f58 System.String    <html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        // Hello World! {0}
+    </body>
+</html>
+00000000003AE4B8 0000000001fe2e70 System.String    i=a19ea23062db990386a3a478cb89d52e&data={0}&session=75db-99b1-25fe4e9afbe58696-320bea73
+00000000003AE4C0 0000000001fe2f58 System.String    <html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        // Hello World! {0}
+    </body>
+</html>
+00000000003AE4C8 00000000021842e8 GruntExecutor.Grunt+<>c__DisplayClass0_0
+00000000003AE4D0 000000000257fbb0 System.String    e6ed272c3c
+00000000003AE4D8 000000000258fbc0 System.Threading.Thread
+00000000003AE4F0 000000000257fbb0 System.String    e6ed272c3c
+00000000003AE4F8 000000000258fbc0 System.Threading.Thread
+00000000003AE5A0 0000000001fe2b78 System.String    http://52.44.115.131:8080
+00000000003AE5A8 0000000001fe1420 System.String
+00000000003AE5B0 0000000001fe4938 System.String    263c07a58a
+00000000003AE5B8 00000000020eb5d0 System.Security.Cryptography.AesCryptoServiceProvider
+00000000003AE6F8 0000000001fe2b78 System.String    http://52.44.115.131:8080
+00000000003AE700 0000000001fe1420 System.String
+00000000003AE708 0000000001fe4938 System.String    263c07a58a
+00000000003AE710 00000000020eb5d0 System.Security.Cryptography.AesCryptoServiceProvider
+00000000003AE730 0000000002183bc8 System.Object[]    (System.Object[])
+00000000003AE738 0000000002183b08 System.Signature
+00000000003AE970 000000000201c6a8 System.RuntimeType
+00000000003AE9C0 0000000002183b90 System.RuntimeType
+00000000003AEA68 0000000002183b58 System.RuntimeType[]
+00000000003AEA88 0000000002183b08 System.Signature
+00000000003AEA90 0000000002183bc8 System.Object[]    (System.Object[])
+00000000003AEAA0 00000000020eb5d0 System.Security.Cryptography.AesCryptoServiceProvider
+00000000003AEAA8 0000000002183b90 System.RuntimeType
+00000000003AEC68 0000000002183bc8 System.Object[]    (System.Object[])
+00000000003AEC70 0000000002183438 System.Reflection.RuntimeMethodInfo
+00000000003AEC80 0000000002183ad0 System.Object[]    (System.Object[])
+00000000003AECC0 0000000002183438 System.Reflection.RuntimeMethodInfo
+00000000003AECC8 0000000002183bc8 System.Object[]    (System.Object[])
+00000000003AECD8 0000000002183438 System.Reflection.RuntimeMethodInfo
+00000000003AECE8 0000000002183ad0 System.Object[]    (System.Object[])
+00000000003AED20 0000000002183ad0 System.Object[]    (System.Object[])
+00000000003AED48 0000000002183ad0 System.Object[]    (System.Object[])
+00000000003AED58 0000000002183438 System.Reflection.RuntimeMethodInfo
+00000000003AED60 00000000020eb5d0 System.Security.Cryptography.AesCryptoServiceProvider
+00000000003AEDA0 0000000002183ad0 System.Object[]    (System.Object[])
+00000000003AEDC0 0000000001fe2b78 System.String    http://52.44.115.131:8080
+00000000003AEDC8 0000000002069200 GruntStager.GruntStager+CookieWebClient
+00000000003AEDD0 000000000211e0b0 System.String    eyJHVUlEIjoiMjYzYzA3YTU4YSIsIlR5cGUiOjIsIk1ldGEiOiIiLCJJViI6IkNrNlZURXphNytoamhUNXpUbUNvR1E9PSIsIkVuY3J5cHRlZE1lc3NhZ2UiOiJOSDdxQkhSWnFSdW93YlhuR1hYSExnPT0iLCJITUFDIjoibjZPSU1naG5TdWtCYkt4U1ZRejNoWTNKMlZFRDZ0STZHQUlEcVN0djZDdz0ifQ==
+00000000003AEDE8 000000000201c918 System.Security.Cryptography.AesCryptoServiceProvider
+00000000003AEDF0 0000000001fe3198 System.String    {{"GUID":"{0}","Type":{1},"Meta":"{2}","IV":"{3}","EncryptedMessage":"{4}","HMAC":"{5}"}}
+00000000003AEDF8 0000000001fe4938 System.String    263c07a58a
+00000000003AEE08 0000000001fe2f58 System.String    <html>
+    <head>
+        <title>Hello World!</title>
+    </head>
+    <body>
+        <p>Hello World!</p>
+        // Hello World! {0}
+    </body>
+</html>
+00000000003AEE10 0000000001fe2e70 System.String    i=a19ea23062db990386a3a478cb89d52e&data={0}&session=75db-99b1-25fe4e9afbe58696-320bea73
+00000000003AEE18 0000000001fe4528 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AEE20 0000000001fe3f20 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AEE28 0000000001fe3698 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AEE40 000000000211e0b0 System.String    eyJHVUlEIjoiMjYzYzA3YTU4YSIsIlR5cGUiOjIsIk1ldGEiOiIiLCJJViI6IkNrNlZURXphNytoamhUNXpUbUNvR1E9PSIsIkVuY3J5cHRlZE1lc3NhZ2UiOiJOSDdxQkhSWnFSdW93YlhuR1hYSExnPT0iLCJITUFDIjoibjZPSU1naG5TdWtCYkt4U1ZRejNoWTNKMlZFRDZ0STZHQUlEcVN0djZDdz0ifQ==
+00000000003AEE58 00000000020b17f0 System.Object[]    (System.Object[])
+00000000003AEE60 0000000001fe3438 System.Collections.Generic.List`1[[System.String, mscorlib]]
+00000000003AEEC8 0000000001fe2b60 GruntStager.GruntStager+<>c
+00000000003AEEF0 0000000001fe2b30 System.String[]
+00000000003AEFD8 0000000001fe2b30 System.String[]
+00000000003AF260 0000000001fe2b30 System.String[]
+00000000003AF268 0000000001fe2b30 System.String[]
+00000000003AF780 0000000001fe1440 System.SharedStatics
+00000000003AF788 0000000001fe1440 System.SharedStatics
+
+
+
+
+
+
+strings:
+              64                1 net_httpstatuscode_
+              64                1 Pool Nonpaged Bytes
+              64                1 LOADER_OPTIMIZATION
+              64                1 performanceCounters
+              64                1 system.net/settings
+              64                1 Xml_UnknownEncoding
+              66                1 IsVariationSelectors
+              66                1 QuantifyAfterNothing
+              66                1 checkCertificateName
+              66                1 1.2.840.113549.1.9.5
+              66                1 1.2.840.113549.1.9.4
+              66                1 Page File Bytes Peak
+              66                1 IsCombiningHalfMarks
+              66                1 IsGeneralPunctuation
+              66                1 MachineToApplication
+              66                1 Xml_InvalidCharacter
+              66                1 MachineToRoamingUser
+              66                1 Xml_EntityRefNesting
+              66                1 Xml_BadStartNameChar
+              66                1 net_cookie_attribute
+              66                1 Xml_BadAttributeChar
+              66                1 cryptographySettings
+              66                1 .    </body>.</html>
+              66                1 IsCyrillicSupplement
+              66                1 PinnableBufferCache_
+              66                1 IsPhoneticExtensions
+              66                1 1.2.840.113549.1.9.3
+              66                1 system.web/protocols
+              66                1 <html>.    <head>.
+              66                1 IsConnectionReusable
+              66                1 system.windows.forms
+              66                1 Xml_UnexpectedEndTag
+              68                1 Arg_EnumValueNotFound
+              68                1 authenticationModules
+              68                1 authenticationService
+              68                1 RFLCT.InvalidPropFail
+              68                1 <html>.    <head>.
+              68                1 lockAllElementsExcept
+              68                1 RandomNumberGenerator
+              68                1 config\machine.config
+              68                1 , "connectAttempts":
+              68                1 minSendBytesPerSecond
+              68                2 name
+              68                2 \\?\
+              68                1 Microsoft Windows 95
+              68                1 scriptResourceHandler
+              68                1 system.data.sqlclient
+              68                1 System.Net.Connection
+              68                1 unspecifiedMaximumAge
+              68                1 system.web.extensions
+              68                1 system.web/deployment
+              68                1 Config_section_locked
+              68                1 system.web/machineKey
+              68                1 system.web/membership
+              68                1 Microsoft Windows 98
+              68                1 System.Net.WebSockets
+              68                1 Microsoft Windows CE
+              68                1 Microsoft Windows NT
+              68                2 true
+              68                2 type
+              68                1 windowsAuthentication
+              68                1 HKEY_PERFORMANCE_DATA
+              68                2 Guid
+              68                1 Set ConnectAttempts:
+              68                1 dateTimeSerialization
+              68                1 Disconnect succeeded!
+              68                1 defaultFtpCachePolicy
+              68                1 useDefaultCredentials
+              68                1 Arg_NonZeroLowerBound
+              70                1 system.web/httpRuntime
+              70                1 system.web/httpModules
+              70                1 1.3.6.1.4.1.311.88.2.2
+              70                1 <html>.    <head>.
+              70                1 system.web/webControls
+              70                1 Format_GuidInvalidChar
+              70                1 system.web/compilation
+              70                1 Argument_InvalidOffLen
+              70                1 1.3.6.1.4.1.311.88.2.1
+              70                1 system.web/browserCaps
+              70                1 IsSupplementalArrows-B
+              70                1 system.runtime.caching
+              70                1 system.web/webServices
+              70                1 RFLCT.InvalidFieldFail
+              70                1 CODE_DOWNLOAD_DISABLED
+              70                1 IsSupplementalArrows-A
+              70                1 RequireCertificateEKUs
+              70                1 system.web/roleManager
+              70                1 IsCJKUnifiedIdeographs
+              70                1 useUnsafeHeaderParsing
+              70                1 dataContractSerializer
+              70                1 DISALLOW_APP_REDIRECTS
+              70                1 IsMiscellaneousSymbols
+              70                1 system.web/httpCookies
+              70                1 defaultHttpCachePolicy
+              70                1 NetworkingPerfCounters
+              70                1 ", "userDomainName": "
+              70                1 TargetFrameworkMoniker
+              70                1 system.web/urlMappings
+              72                2 <?xml
+              72                2 http:
+              72                1 <html>.    <head>.
+              72                1 ", "operatingSystem": "
+              72                1 Connections Established
+              72                1 net_tooManyRedirections
+              72                2 utf-8
+              72                1 UseSafeSynchronousClose
+              72                1 System.Net.HttpListener
+              72                1 net_need_writebuffering
+              72                1 IsCJKRadicalsSupplement
+              72                1 IsCJKCompatibilityForms
+              72                2 en-us
+              72                1 net_log_sending_headers
+              72                1 Arg_MustContainEnumInfo
+              72                1 IsYijingHexagramSymbols
+              72                1 net_resubmitprotofailed
+              72                1 net_io_connectionclosed
+              72                2 xmlns
+              72                1 net_empty_osinstalltype
+              72                1 lockAllAttributesExcept
+              72                1 anonymousIdentification
+              72                1 system.web/httpHandlers
+              72                1 Format_GuidUnrecognized
+              72                1 system.runtime.remoting
+              72                1 system.web/processModel
+              72                1 system.net/mailSettings
+              72                1 Xml_InvalidCommentChars
+              72                1 system.web/sessionState
+              72                1 Xml_ExpectingWhiteSpace
+              72                1 system.net/defaultProxy
+              72                1 MaxCharactersInDocument
+              72                2 trace
+              72                1 system.web/clientTarget
+              72                1 system.web/customErrors
+              72                1 IsMathematicalOperators
+              72                1 IsEnclosedAlphanumerics
+              74                1 <html>.    <head>.
+              74                1 Config_namespace_invalid
+              74                1 net_log_buffered_n_bytes
+              74                1 configProtectionProvider
+              74                1 net_log_received_headers
+              74                1 Ac2ZSitBO36Y7BipzFs3LA==
+              74                1 AesCryptoServiceProvider
+              74                1 SystemDefaultTlsVersions
+              74                1 Arg_ArrayPlusOffTooSmall
+              74                1 IsMiscellaneousTechnical
+              74                1 ArgumentOutOfRange_Index
+              74                1 HWRPortReuseOnSocketBind
+              74                1 system.web/deviceFilters
+              74                1 system.web/globalization
+              74                1 restartOnExternalChanges
+              74                1 Argument_AddingDuplicate
+              74                1 Xml_InvalidVersionNumber
+              74                1 net_log_socket_connected
+              74                1 system.xml.serialization
+              74                1 NLS_CodePage_437_3_2_0_0
+              74                1 system.web/caching/cache
+              74                1 system.data.oracleclient
+              74                1 IsSpacingModifierLetters
+              74                1 schemaImporterExtensions
+              74                1 Xml_MissingByteOrderMark
+              74                1 The request was canceled
+              74                1 system.web/authorization
+              76                1 System.Net.HttpWebRequest
+              76                1 system.web/securityPolicy
+              76                1 DISALLOW_APP_BASE_PROBING
+              76                1 system.web/authentication
+              76                2 prefix
+              76                1 <html>.    <head>.
+              76                1 serviceHostingEnvironment
+              76                1 MaxCharactersFromEntities
+              76                1 system.web/mobileControls
+              76                1 system.net/requestCaching
+              76                1 VXNlci1BZ2VudA==,Q29va2ll
+              76                1 net_unknown_osinstalltype
+              76                1 IsLatinExtendedAdditional
+              76                1 IsHangulCompatibilityJamo
+              76                2 Task:
+              78                1 <html>.    <head>.
+              78                1 system.serviceModel/client
+              78                1 IsCombiningMarksforSymbols
+              78                1 IsCJKSymbolsandPunctuation
+              78                1 unicodeEncodingConformance
+              78                1 maximumErrorResponseLength
+              78                1 Config_source_syntax_error
+              78                1 HttpWebRequests Queued/Sec
+              78                1 HttpWebRequests Failed/Sec
+              78                1 autoConfigUrlRetryInterval
+              78                1 unicodeDecodingConformance
+              78                1 No active task with name:
+              78                1 InvalidOperation_EnumEnded
+              78                1 IsHighPrivateUseSurrogates
+              80                1 UseStrictIPv6AddressParsing
+              80                1 system.web/healthMonitoring
+              80                1 IsSuperscriptsandSubscripts
+              80                1 HttpWebRequests Aborted/Sec
+              80                1 REGEX_DEFAULT_MATCH_TIMEOUT
+              80                1 system.web/xhtmlConformance
+              80                1 system.serviceModel/routing
+              80                2 .config
+              80                2 net.tcp
+              80                1 ::ThreadProc() - Exception:
+              80                1 __InternalRegexIgnoreCase__
+              80                1 HttpWebRequests Created/Sec
+              80                1 International Monetary Fund
+              80                1 IsCombiningDiacriticalMarks
+              80                1 net_httpstatuscode_NotFound
+              80                1 InvalidOperation_EmptyQueue
+              80                1 InvalidOperation_EmptyStack
+              80                2 version
+              80                1 Serialization_MissingValues
+              80                1 system.web/sessionPageState
+              80                1 IsArabicPresentationForms-A
+              80                1 net_log_proxy_ras_supported
+              80                1 IsArabicPresentationForms-B
+              82                1 system.serviceModel/bindings
+              82                1 system.serviceModel/services
+              82                1 NetFx40_LegacySecurityPolicy
+              82                1 system.serviceModel/tracking
+              82                1 Serialization_InvalidOnDeser
+              82                1 system.net/mailSettings/smtp
+              82                1 IsCJKCompatibilityIdeographs
+              82                1 maximumResponseHeadersLength
+              82                1 system.net/webRequestModules
+              82                1 net_log_received_status_line
+              82                1 AllowAllUriEncodingExpansion
+              82                1 net_log_resubmitting_request
+              82                1 system.runtime.serialization
+              82                1 IsHalfwidthandFullwidthForms
+              82                1 IsKatakanaPhoneticExtensions
+              84                1 The request was aborted: {0}.
+              84                1 system.web/hostingEnvironment
+              84                1 Serialization_MismatchedCount
+              84                1  PinnableBufferCacheDisabled=
+              84                1 Argument_ImplementIComparable
+              84                3 *
+              84                1 , "status": 0, "ipAddress": "
+              84                1 system.serviceModel/behaviors
+              84                1 Config_error_loading_XML_file
+              84                1 net_webstatus_RequestCanceled
+              84                1 NotSupported_KeyCollectionSet
+              84                2 .115.131
+              84                1 http://www.w3.org/2000/xmlns/
+              84                1 IsAlphabeticPresentationForms
+              84                1 partialTrustVisibleAssemblies
+              84                1 net_cache_not_accept_response
+              84                2 encoding
+              84                2 net.pipe
+              84                1 IsEnclosedCJKLettersandMonths
+              84                2 Infinity
+              84                2 settings
+              84                1 Sun, 21 Nov 2021 23:49:37 GMT
+              84                1 net_log_exception_in_callback
+              84                1 IsOpticalCharacterRecognition
+              84                1 TargetsAtLeast_Desktop_V4_5_2
+              84                1 \SystemRoot\System32\smss.exe
+              86                1 Config_sections_must_be_unique
+              86                1 system.serviceModel.activation
+              86                1 system.serviceModel/extensions
+              86                1 checkCertificateRevocationList
+              86                1 system.web/caching/outputCache
+              86                1 system.web/fullTrustAssemblies
+              88                1 InvalidOperation_EnumNotStarted
+              88                1 system.net/connectionManagement
+              88                1 Config_tag_name_already_defined
+              88                1 maximumUnauthorizedUploadLength
+              88                1 system.web.extensions/scripting
+              88                1 NotSupported_ValueCollectionSet
+              88                1 System.Resources.ResourceReader
+              88                1 IsMiscellaneousSymbolsandArrows
+              88                2 -Infinity
+              88                1 Switch.System.IO.BlockLongPaths
+              88                1 Microsoft Windows NT 6.2.9200.0
+              88                1 system.serviceModel/diagnostics
+              90                1 system.net/authenticationModules
+              90                1 IsCJKUnifiedIdeographsExtensionA
+              90                1 SOFTWARE\Microsoft\.NETFramework
+              90                1 NLS_CodePage_{0}_{1}_{2}_{3}_{4}
+              90                1 Protection_provider_syntax_error
+              90                1 System.Security.Cryptography.RC2
+              90                1 PARTIAL_TRUST_VISIBLE_ASSEMBLIES
+              90                1 system.serviceModel/comContracts
+              90                1 System.Security.Cryptography.DES
+              90                1 System.Security.Cryptography.MD5
+              90                1 Config_invalid_boolean_attribute
+              90                1 ArgumentOutOfRange_NeedNonNegNum
+              90                1 ArgumentOutOfRange_SmallCapacity
+              90                1 Config_base_unrecognized_element
+              90                1 C:\Users\Administrator\Downloads
+              90                3 ..
+              90                1 HttpWebRequests Average Lifetime
+              90                1 System.Security.Cryptography.DSA
+              90                1 system.xaml.hosting/httpHandlers
+              90                3 :
+              90                1 InvalidOperation_EmptyCollection
+              90                1 net_cant_determine_osinstalltype
+              90                1 NetFx40_TimeSpanLegacyFormatMode
+              90                1 System.Security.Cryptography.RSA
+              92                2 User-Agent
+              92                1 UseHttpPipeliningAndBufferPooling
+              92                1 alwaysUseCompletionPortsForAccept
+              92                1 Xml_EncodingSwitchAfterResetState
+              92                1 InvalidOperation_EnumOpCantHappen
+              92                1 {{"status":"{0}","output":"{1}"}}
+              92                2 HKEY_USERS
+              92                2 $Version=1
+              92                1 C:\Users\Administrator\Downloads\
+              92                1 System.Security.Cryptography.HMAC
+              92                1 defaultCredentialsHandleCacheSize
+              92                1 System.Security.Cryptography.SHA1
+              94                1 system.runtime.caching/memoryCache
+              94                1 InvalidOperation_EnumFailedVersion
+              94                1 net_log_server_response_error_code
+              94                1 NotSupported_SortedListNestedWrite
+              94                1 NetFx45_LegacyManagedDeflateStream
+              94                1 system.web/anonymousIdentification
+              94                1 HttpWebRequests Average Queue Time
+              94                1 alwaysUseCompletionPortsForConnect
+              94                1 Config_base_collection_item_locked
+              94                1 IsIdeographicDescriptionCharacters
+              96                1 System.Security.Cryptography.SHA384
+              96                1 User accounts for \\WIN-V8LCTQAJIEN
+              96                1 system.serviceModel/machineSettings
+              96                1 net_perfcounter_cant_queue_workitem
+              96                1 System.Security.Cryptography.SHA256
+              96                1 IsSupplementalMathematicalOperators
+              96                2 MACHINE/EXE
+              96                1 The command completed successfully.
+              96                2 appSettings
+              96                1 System.Security.Cryptography.SHA512
+              96                1 System.Security.Cryptography.MD5Cng
+              96                1 AllowDangerousUnicodeDecompositions
+              96                2 diagnostics
+              96                1 net_log_proxy_winhttp_timeout_error
+              96                1 system.transactions/machineSettings
+              96                2 webServices
+              96                1 system.serviceModel/commonBehaviors
+              96                2 .44.115.131
+              96                3 EXE
+              96                1 system.transactions/defaultSettings
+              96                1 UseStrictRfcInterimResponseHandling
+              96                1 system.serviceModel/protocolMapping
+              96                1 System.Resources.RuntimeResourceSet
+              98                1 Config_location_location_not_allowed
+              98                1 IsMiscellaneousMathematicalSymbols-A
+              98                1 IsMiscellaneousMathematicalSymbols-B
+              98                1 IsUnifiedCanadianAboriginalSyllabics
+              98                1 System.Security.Cryptography.HMACMD5
+              98                1 http://www.w3.org/XML/1998/namespace
+              98                1 System.Security.Cryptography.SHA1Cng
+              98                1 00000000-0000-0000-C000-000000000046
+              98                1 ee799f41-cfa5-550b-bf2c-344747c1c668
+             100                2 TryGetSwitch
+             100                1 http://www.w3.org/2002/07/decrypt#XML
+             100                1 System.Security.Cryptography.Rijndael
+             100                2 defaultProxy
+             100                1 IsCombiningDiacriticalMarksforSymbols
+             100                1 system.web/caching/sqlCacheDependency
+             100                1 System.Security.Cryptography.ECDsaCng
+             100                2 WindowsPhone
+             100                1 System.Security.Cryptography.HMACSHA1
+             100                1 Switch.System.Net.DontEnableTlsAlerts
+             100                1 net_log_cache_refused_server_response
+             100                2 httpHandlers
+             100                1 net_log_proxy_winhttp_getproxy_failed
+             100                1 system.serviceModel/standardEndpoints
+             100                1 SOFTWARE\Microsoft\.NETFramework\v{0}
+             100                1 HttpWebRequests Average Lifetime Base
+             102                1 system.web/caching/outputCacheSettings
+             102                1 System.Security.Cryptography.SHA384Cng
+             102                1 system.serviceModel.activation/net.tcp
+             102                1 System.Security.Cryptography.TripleDES
+             102                1 System.Security.Cryptography.SHA256Cng
+             102                1 system.xml.serialization/xmlSerializer
+             102                1 <html>.    <head>.        <title>Hello
+             102                1 System.Uri.UseStrictIPv6AddressParsing
+             102                1 System.Security.Cryptography.SHA512Cng
+             102                1 Invariant Language (Invariant Country)
+             102                1 http://www.w3.org/2000/09/xmldsig#sha1
+             102                1 net_log_retrieving_localhost_exception
+             102                1 {0F21F359-AB84-41E8-9A78-36D110E6D2F9}
+             102                1 Switch.System.IO.UseLegacyPathHandling
+             102                1 System.Security.Cryptography.RIPEMD160
+             104                1 System.Security.Cryptography.HMACSHA512
+             104                1 Switch.System.Threading.UseNetCoreTimer
+             104                1 net_log_proxy_winhttp_cant_open_session
+             104                2 configuration
+             104                1 System.Diagnostics.DefaultTraceListener
+             104                1 http://www.w3.org/2001/XMLSchema#string
+             104                1 http://www.w3.org/2001/04/xmlenc#sha256
+             104                1 http://www.w3.org/2001/10/xml-exc-c14n#
+             104                1 http://www.w3.org/2001/04/xmlenc#sha512
+             104                1 System.Uri.AllowAllUriEncodingExpansion
+             104                1 System.Security.Cryptography.AesManaged
+             104                1 <html>.    <head>.        <title>Hello
+             104                1 HttpWebRequests Average Queue Time Base
+             104                1 System.Security.Cryptography.HMACSHA256
+             104                1 system.serviceModel.activation/net.pipe
+             104                1 System.Security.Cryptography.HMACSHA384
+             106                1 http://www.w3.org/2000/09/xmldsig#base64
+             106                1 Successfully wrote value to registry key
+             106                1 http://www.w3.org/2001/04/xmlenc#des-cbc
+             106                1 net_log_cache_validation_failed_resubmit
+             106                1 system.web/partialTrustVisibleAssemblies
+             106                1
+             106                1 Config_tag_name_cannot_begin_with_config
+             106                1 ArgumentOutOfRange_NeedNonNegNumRequired
+             108                2 requestCaching
+             108                1 System.Security.Cryptography.MACTripleDES
+             108                3 file:
+             108                1 Config_section_cannot_be_used_in_location
+             108                1 Config_unrecognized_configuration_section
+             108                2 .52.44.115.131
+             108                1 The remote server returned an error: {0}.
+             108                2 machine.config
+             108                1 ExecutionEngine_MissingSecurityDescriptor
+             108                3 false
+             110                1 http://www.w3.org/2001/04/xmlenc#ripemd160
+             110                1 C:\Users\Administrator\Downloads\Grunt.exe
+             110                1 http://www.w3.org/2001/04/xmlenc#kw-aes256
+             110                1 http://www.w3.org/2001/04/xmlenc#kw-aes192
+             110                1 http://www.w3.org/2001/04/xmlenc#kw-aes128
+             110                1 System.Security.Cryptography.HashAlgorithm
+             110                1 CTOR: In System.Net.Connection.Connnection
+             110                1 Switch.System.Net.DontCheckCertificateEKUs
+             110                1 http://www.w3.org/2000/09/xmldsig# KeyName
+             110                1 system.serviceModel.activation/diagnostics
+             110                1 http://www.w3.org/2000/09/xmldsig#dsa-sha1
+             110                1 System.Security.Cryptography.HMACRIPEMD160
+             110                1 http://www.w3.org/2000/09/xmldsig#rsa-sha1
+             110                1 http://www.w3.org/2001/04/xmldsig-more#md5
+             112                1 HKEY_CURRENT_USER\Environment\HackerWasHere
+             112                4 ,
+             112                1 SOFTWARE\Microsoft\.NETFramework\AppContext
+             112                1 http://www.w3.org/2000/09/xmldsig# X509Data
+             112                4 -
+             112                4 .
+             112                2 machineSettings
+             112                1 http://www.w3.org/2000/09/xmldsig#hmac-sha1
+             112                2 WindowsPhoneApp
+             112                1 system.web.extensions/scripting/webServices
+             112                1 Config_base_collection_entry_already_exists
+             112                1 Validation_scalar_range_violation_not_equal
+             112                1 http://www.w3.org/2001/04/xmlenc#aes256-cbc
+             112                1 http://www.w3.org/2001/04/xmlenc#aes192-cbc
+             112                4 2
+             112                4 3
+             112                1 http://www.w3.org/2001/04/xmlenc#aes128-cbc
+             112                1 http://www.w3.org/TR/1999/REC-xslt-19991116
+             114                1 Switch.System.Net.DontEnableSchSendAuxRecord
+             114                1 f1PSUHMnINGECc35BBMPVb8NEUXA12FOhLXZRtv/SMo=
+             114                3 group0
+             114                1 Software\Microsoft\Windows NT\CurrentVersion
+             114                3 Cookie
+             114                1 ZETM4g/EafJW28ZR22K5Etno5YciNmwhGaK7JQwwLZw=
+             114                1 InvalidOperation_APIInvalidForCurrentContext
+             114                1 ASPSESSIONID={GUID}; SESSIONID=1552332971750
+             114                1 http://www.w3.org/TR/1999/REC-xpath-19991116
+             116                1 Config_tag_name_already_defined_at_this_level
+             116                1 system.serviceModel/serviceHostingEnvironment
+             116                1 net_log_set_socketoption_reuseport_default_on
+             116                1 http://www.w3.org/2001/04/xmlenc#kw-tripledes
+             116                1 Proactively adding more buffers to aging pool
+             116                1 http://www.w3.org/2001/04/xmldsig-more#sha384
+             116                1 System.Runtime.Versioning.BinaryCompatibility
+             116                1 System.Security.Cryptography.RIPEMD160Managed
+             116                1 InvalidOperation_CannotRemoveFromStackOrQueue
+             118                1 http://www.w3.org/2001/04/xmlenc# EncryptedKey
+             118                1 Switch.System.Net.DontEnableSchUseStrongCrypto
+             118                1 system.xml.serialization/dateTimeSerialization
+             118                1 Validation_scalar_range_violation_not_in_range
+             118                1 http://www.w3.org/2001/04/xmlenc#tripledes-cbc
+             118                1 System.Uri.AllowDangerousUnicodeDecompositions
+             120                1 http://www.w3.org/2001/04/xmldsig-more#hmac-md5
+             120                1 System.Net.ServicePointManager.SecurityProtocol
+             120                1 System.Net.ServicePointManager.SchSendAuxRecord
+             120                1 System.Security.Cryptography.ECDiffieHellmanCng
+             120                2 connectionStrings
+             120                4 S>
+             120                1 System.Security.Cryptography.DpapiDataProtector
+             120                3 Profile
+             120                3 Version
+             120                2 HKEY_CURRENT_USER
+             120                4 52
+             120                4 44
+             120                2 HKEY_CLASSES_ROOT
+             120                1 http://www.w3.org/TR/2001/REC-xml-c14n-20010315
+             120                1 System.Security.Cryptography.KeyedHashAlgorithm
+             120                2 webRequestModules
+             120                1 System.Security.Cryptography.SymmetricAlgorithm
+             120                1 Validation_scalar_range_violation_not_different
+             120                2 System.AppContext
+             122                1 System.Diagnostics.Eventing.FrameworkEventSource
+             122                1 System.Security.Cryptography.AsymmetricAlgorithm
+             124                1 http://www.w3.org/2001/04/xmldsig-more#rsa-sha512
+             124                1 Switch.System.Globalization.NoAsyncCurrentCulture
+             124                1 urn:mpeg:mpeg21:2003:01-REL-R-NS:licenseTransform
+             124                1 http://www.w3.org/2001/04/xmldsig-more#rsa-sha384
+             124                1 http://www.w3.org/2001/04/xmldsig-more#rsa-sha256
+             124                1 C:\Users\Administrator\Downloads\Grunt.exe.config
+             124                1 system.xml.serialization/schemaImporterExtensions
+             124                1 Config_section_allow_definition_attribute_invalid
+             124                2 HKEY_LOCAL_MACHINE
+             124                1 /.NET/NetClasses/HttpWebRequest/CONNECT__Group$$/
+             126                1 http://www.w3.org/2001/04/xmldsig-more#hmac-sha256
+             126                1 Microsoft-DotNETRuntime-PinnableBufferCache-System
+             126                1 System\CurrentControlSet\Control\Nls\RegionMapping
+             126                1 http://www.w3.org/2001/04/xmldsig-more#hmac-sha384
+             126                1 ExecutionContext_ExceptionInAsyncLocalNotification
+             126                3 .NETCore
+             126                1 System.Security.Cryptography.RandomNumberGenerator
+             126                1 Administrator            Guest
+             126                1 http://www.w3.org/2001/04/xmldsig-more#hmac-sha512
+             126                1 http://www.w3.org/2000/09/xmldsig# RetrievalMethod
+             128                1 http://www.w3.org/2001/10/xml-exc-c14n#WithComments
+             128                4 131
+             128                1 Windows.Foundation.Diagnostics.AsyncCausalityTracer
+             128                4 115
+             128                1 http://schemas.microsoft.com/.NetConfiguration/v2.0
+             128                1 Validation_scalar_range_violation_not_outside_range
+             128                2 HKEY_CURRENT_CONFIG
+             128                1 system.runtime.serialization/dataContractSerializer
+             130                1 Switch.System.Net.DontEnableSystemDefaultTlsVersions
+             130                1 System.Security.Cryptography.DSASignatureDescription
+             130                1 System.Windows.Forms.ApplicationConfigurationSection
+             130                1 ERROR: Exception during construction of EventSource
+             130                1 System.Security.Cryptography.RSASignatureDescription
+             132                1 System.Security.Cryptography.AesCryptoServiceProvider
+             132                2 connectionManagement
+             132                1 Config_client_config_too_many_configsections_elements
+             132                1 http://www.w3.org/2000/09/xmldsig#enveloped-signature
+             132                1 system.web.extensions/scripting/scriptResourceHandler
+             132                1 http://www.w3.org/2001/04/xmldsig-more#hmac-ripemd160
+             132                1 Microsoft Enhanced RSA and AES Cryptographic Provider
+             132                1 System.Net.ServicePointManager.RequireCertificateEKUs
+             132                1 <html>.    <head>.        <title>Hello World!</title>
+             132                3 SESSIONID
+             134                1 net_log_resolved_servicepoint_may_not_be_remote_server
+             134                1 Switch.System.Runtime.Serialization.UseNewMaxArraySize
+             134                1 System.Net.ServicePointManager.UseSafeSynchronousClose
+             134                1 <html>.    <head>.        <title>Hello World!</title>.
+             136                1 system.web.extensions/scripting/webServices/roleService
+             136                1 http://www.w3.org/2000/09/xmldsig# KeyValue/DSAKeyValue
+             136                1 http://www.w3.org/2000/09/xmldsig# KeyValue/RSAKeyValue
+             136                1 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\config\
+             136                4 8080
+             136                2 LocalizationResources
+             136                1 System.Net.ServicePointManager.SystemDefaultTlsVersions
+             136                1 <html>.    <head>.        <title>Hello World!</title>.
+             138                1 System.Security.Cryptography.SHA256CryptoServiceProvider
+             138                1 Switch.System.Globalization.EnforceJapaneseEraYearRanges
+             138                1 System.Security.Cryptography.SHA512CryptoServiceProvider
+             138                1 System.Security.Cryptography.SHA384CryptoServiceProvider
+             138                3 LOCAL_USER
+             138                1 <html>.    <head>.        <title>Hello World!</title>.
+             138                3 system.net
+             140                1 {{"type":"{0}","name":"{1}","message":"{2}","token":{3}}}
+             140                1 <html>.    <head>.        <title>Hello World!</title>.
+             140                1 Switch.System.Diagnostics.IgnorePortablePDBsInStackTraces
+             140                1 Switch.System.Uri.DontKeepUnicodeBidiFormattingCharacters
+             140                5 1
+             140                1 {0:x4}:{1:x4}:{2:x4}:{3:x4}:{4:x4}:{5:x4}:{6}.{7}.{8}.{9}
+             142                1 system.web.extensions/scripting/webServices/profileService
+             142                1 http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name
+             142                1 <html>.    <head>.        <title>Hello World!</title>.
+             144                2 SESSIONID=1552332971750
+             146                1 http://schemas.microsoft.com/ws/2008/06/identity/claims/role
+             146                1 Switch.System.MemberDescriptorEqualsReturnsFalseIfEquivalent
+             146                1 Switch.System.Globalization.FormatJapaneseFirstYearAsANumber
+             146                1 http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments
+             146                1 Switch.System.Globalization.EnforceLegacyJapaneseDateParsing
+             148                1 system.web.extensions/scripting/webServices/jsonSerialization
+             148                2 MACHINE/EXE/ROAMING_USER
+             148                1 Switch.System.IO.Ports.DoNotCatchSerialStreamThreadExceptions
+             148                1 Software\Microsoft\Windows NT\CurrentVersion\InstallationType
+             150                1 Switch.System.Uri.DontEnableStrictRFC3986ReservedCharacterSets
+             150                3 ROAMING_USER
+             150                3 ASPSESSIONID
+             154                1 System.Net.ServicePointManager.UseHttpPipeliningAndBufferPoolin
+             154                1 http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsi
+             156                1 Microsoft Enhanced RSA and AES Cryptographic Provider (Prototyp
+             156                3 .NETFramework
+             156                1 system.web.extensions/scripting/webServices/authenticationServi
+             156                3 1552332971750
+             158                1 System.Net.ServicePointManager.UseStrictRfcInterimResponseHandl
+             160                1 Switch.System.Runtime.Serialization.UseConcurrentFormatterTypeC
+             162                1 SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\Internet Set
+             162                1 Switch.System.Security.Cryptography.DoNotAddrOfCspParentWindowH
+             164                1 Switch.System.IO.Compression.DoNotUseNativeZipLibraryForDecompr
+             164                1 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.
+             168                2 Sun, 21 Nov 2021 23:50:07 GMT
+             168                1 Switch.System.Threading.ThrowExceptionIfDisposedCancellationTok
+             168                6 /
+             168                1 SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Con
+             168                4 mscorlib
+             170                1 Switch.System.Diagnostics.EventSource.PreserveEventListnerObjec
+             170                1 Switch.System.Threading.UseLegacyExecutionContextBehaviorUponUn
+             170                5 Name
+             174                1 L2VuLXVzL2luZGV4Lmh0bWw=,L2VuLXVzL2RvY3MuaHRtbA==,L2VuLXVzL3Rlc
+             176                1 mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a
+             176                1 Switch.System.Runtime.InteropServices.DoNotMarshalOutByrefSafeA
+             176                5 .
+             180                3 Microsoft-IIS/7.5
+             184                1 ---------------------------------------------------------------
+             186                3 system.diagnostics
+             190                1 Switch.System.Security.ClaimsIdentity.SetActorAsReferenceWhenCo
+             192                2 MACHINE/EXE/ROAMING_USER/LOCAL_USER
+             196                2 2e5dba47-a3d2-4d16-8ee0-6671ffdcd7b5
+             198                1 C:\Users\Administrator\AppData\Roaming\Microsoft\CLR Security C
+             200                2 System.Threading.Tasks.TplEventSource
+             200                1 i=a19ea23062db990386a3a478cb89d52e&data={0}&session=75db-99b1-2
+             202                1 Switch.System.Security.Cryptography.AesCryptoServiceProvider.Do
+             204                6 http
+             204                1 {{"GUID":"{0}","Type":{1},"Meta":"{2}","IV":"{3}","EncryptedMes
+             216                2 http://52.44.115.131:8080/en-us/test.html
+             220                2 http://52.44.115.131:8080/en-us/index.html
+             226                1 Bad Request ( The HTTP request includes a non-supported header.
+             226                1 Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Ge
+             228                3 text/plain; charset=utf-8
+             228                2 ASPSESSIONID={GUID}, SESSIONID=1552332971750
+             230                5 263c07a58a
+             232                4 /en-us/test.html
+             238                1 System.Configuration.UriSection, System, Version=4.0.0.0, Cultu
+             240                4 Transfer-Encoding
+             240                6 chunked
+             240                4 /en-us/index.html
+             244                2 ASPSESSIONID=263c07a58a, SESSIONID=1552332971750
+             248                1 System.Net.Configuration.SmtpSection, System, Version=4.0.0.0,
+             252                9 0
+             256                1 System.Net.Configuration.NetSectionGroup, System, Version=4.0.0
+             256                1 System.Security.Cryptography.RSACng, System.Core, Version=4.0.0
+             256                1 System.Net.Configuration.SettingsSection, System, Version=4.0.0
+             256                1 System.Security.Cryptography.DSACng, System.Core, Version=4.0.0
+             256                1 System.Security.Cryptography.MD5Cng, System.Core, Version=4.0.0
+             258                1 System.Web.Configuration.PagesSection, System.Web, Version=4.0.
+             258                1 System.Web.Configuration.TraceSection, System.Web, Version=4.0.
+             258                1 System.Security.Cryptography.SHA1Cng, System.Core, Version=4.0.
+             258                1 System.Web.Configuration.CacheSection, System.Web, Version=4.0.
+             258                1 System.Web.Configuration.TrustSection, System.Web, Version=4.0.
+             260                1 System.Security.Cryptography.ECDsaCng, System.Core, Version=4.0
+             262                1 System.Security.Cryptography.SHA384Cng, System.Core, Version=4.
+             262                1 System.Web.Configuration.SiteMapSection, System.Web, Version=4.
+             262                1 System.Security.Cryptography.SHA512Cng, System.Core, Version=4.
+             262                1 System.Security.Cryptography.SHA256Cng, System.Core, Version=4.
+             262                1 System.Diagnostics.SystemDiagnosticsSection, System, Version=4.
+             262                1 System.Web.Configuration.ProfileSection, System.Web, Version=4.
+             264                1 System.Net.Configuration.DefaultProxySection, System, Version=4
+             264                1 System.Security.Cryptography.AesManaged, System.Core, Version=4
+             264                1 System.Web.Configuration.WebPartsSection, System.Web, Version=4
+             264                1 System.Web.Configuration.IdentitySection, System.Web, Version=4
+             266                1 System.Web.Configuration.ProtocolsSection, System.Web, Version=
+             268                1 System.Web.Configuration.MachineKeySection, System.Web, Version
+             268                1 System.Net.Configuration.RequestCachingSection, System, Version
+             268                2 Switch.System.Security.Cryptography.UseLegacyFipsThrow
+             268                1 System.Web.Configuration.DeploymentSection, System.Web, Version
+             268                1 System.Web.Configuration.MembershipSection, System.Web, Version
+             270                1 System.Web.Configuration.HttpRuntimeSection, System.Web, Versio
+             270                1 System.Web.Configuration.WebControlsSection, System.Web, Versio
+             270                1 System.Web.Configuration.UrlMappingsSection, System.Web, Versio
+             270                1 System.Web.Configuration.CompilationSection, System.Web, Versio
+             270                1 System.Web.Configuration.HttpCookiesSection, System.Web, Versio
+             270                1 System.Web.Configuration.HttpModulesSection, System.Web, Versio
+             270                1 System.Web.Configuration.OutputCacheSection, System.Web, Versio
+             270                1 System.Web.Configuration.RoleManagerSection, System.Web, Versio
+             272                1 System.Web.Configuration.ProcessModelSection, System.Web, Versi
+             272                1 System.Web.Configuration.CustomErrorsSection, System.Web, Versi
+             272                1 System.Web.Configuration.HttpHandlersSection, System.Web, Versi
+             272                1 System.Web.Configuration.ClientTargetSection, System.Web, Versi
+             272                1 System.Web.Configuration.SessionStateSection, System.Web, Versi
+             272                1 System.Configuration.NameValueFileSectionHandler, System, Versi
+             274                1 System.Web.Configuration.GlobalizationSection, System.Web, Vers
+             274                1 System.Net.Configuration.MailSettingsSectionGroup, System, Vers
+             274                1 System.Net.Configuration.WebRequestModulesSection, System, Vers
+             274                1 System.Web.Configuration.AuthorizationSection, System.Web, Vers
+             274                1 System.Web.Mobile.DeviceFiltersSection, System.Web.Mobile, Vers
+             276                1 System.Web.Configuration.SystemWebSectionGroup, System.Web, Ver
+             276                1 System.Web.Configuration.AuthenticationSection, System.Web, Ver
+             276                1 System.Web.Configuration.SecurityPolicySection, System.Web, Ver
+             278                1 System.CodeDom.Compiler.CodeDomConfigurationHandler, System, Ve
+             280                1 System.Web.Configuration.XhtmlConformanceSection, System.Web, V
+             280               10 .
+             280                1 System.Security.Cryptography.ECDiffieHellmanCng, System.Core, V
+             280                1 System.Web.Configuration.SessionPageStateSection, System.Web, V
+             280                1 System.Net.Configuration.ConnectionManagementSection, System, V
+             280                1 System.Web.Configuration.HealthMonitoringSection, System.Web, V
+             282                1 System.Net.Configuration.AuthenticationModulesSection, System,
+             282                1 System.Security.Cryptography.Xml.KeyInfoName, System.Security,
+             282                1 System.Security.Cryptography.Xml.DSAKeyValue, System.Security,
+             282                1 System.Security.Cryptography.Xml.RSAKeyValue, System.Security,
+             284                1 System.Windows.Forms.WindowsFormsSection, System.Windows.Forms,
+             284                1 System.Web.Configuration.HostingEnvironmentSection, System.Web,
+             284                1 System.Web.Configuration.SqlCacheDependencySection, System.Web,
+             286                1 System.Security.Cryptography.X509Certificates.X509Chain, System
+             286                1 System.Web.Configuration.OutputCacheSettingsSection, System.Web
+             286                1 System.Web.Configuration.FullTrustAssembliesSection, System.Web
+             288                8 en-US
+             288                4 ASPSESSIONID=263c07a58a
+             288                1 System.Security.Cryptography.DpapiDataProtector, System.Securit
+             290                1 System.Security.Cryptography.Xml.KeyInfoX509Data, System.Securi
+             290                1 System.Web.Configuration.SystemWebCachingSectionGroup, System.W
+             292                1 System.Security.Cryptography.AesCryptoServiceProvider, System.C
+             294                1 System.Security.Cryptography.Pkcs.Pkcs9ContentType, System.Secu
+             294                1 System.Web.Configuration.HttpCapabilitiesSectionHandler, System
+             294                1 System.Security.Cryptography.Pkcs.Pkcs9SigningTime, System.Secu
+             294                1 System.Web.Configuration.AnonymousIdentificationSection, System
+             294                1 System.Configuration.ConnectionStringsSection, System.Configura
+             296                1 System.Security.Cryptography.Pkcs.Pkcs9DocumentName, System.Sec
+             296                1 System.ServiceModel.Configuration.ClientSection, System.Service
+             298                1 System.Security.Cryptography.SHA512CryptoServiceProvider, Syste
+             298                1 System.Security.Cryptography.SHA256CryptoServiceProvider, Syste
+             298                1 System.Web.UI.MobileControls.MobileControlsSection, System.Web.
+             298                1 System.Security.Cryptography.Xml.XmlLicenseTransform, System.Se
+             298                1 System.Security.Cryptography.SHA384CryptoServiceProvider, Syste
+             298                1 System.Web.Configuration.ScriptingSectionGroup, System.Web.Exte
+             298                1 System.Security.Cryptography.Pkcs.Pkcs9MessageDigest, System.Se
+             298                1 System.Security.Cryptography.Xml.KeyInfoEncryptedKey, System.Se
+             300                1 System.Security.Cryptography.Xml.XmlDsigC14NTransform, System.S
+             300                1 System.Security.Cryptography.Xml.XmlDsigXsltTransform, System.S
+             300                1 System.ServiceModel.Configuration.BindingsSection, System.Servi
+             300                1 System.ServiceModel.Configuration.ServicesSection, System.Servi
+             302                1 System.Data.Common.DbProviderFactoriesConfigurationHandler, Sys
+             302                1 System.ServiceModel.Configuration.BehaviorsSection, System.Serv
+             302                1 System.Security.Cryptography.Xml.XmlDsigXPathTransform, System.
+             302                1 System.Configuration.ConfigurationBuildersSection, System.Confi
+             302                1 System.Xml.Serialization.Configuration.XmlSerializerSection, Sy
+             302                1 System.ServiceModel.Configuration.MachineSettingsSection, SMDia
+             304                1 System.Security.Cryptography.Xml.XmlDecryptionTransform, System
+             304                1 System.Security.Cryptography.Xml.XmlDsigBase64Transform, System
+             304                4 http://52.44.115.131:8080
+             304                1 System.Configuration.ProtectedConfigurationSection, System.Conf
+             304                1 System.ServiceModel.Configuration.DiagnosticSection, System.Ser
+             304                1 System.ServiceModel.Configuration.ExtensionsSection, System.Ser
+             304                1 System.Security.Cryptography.Xml.KeyInfoRetrievalMethod, System
+             306                1 System.Xaml.Hosting.Configuration.XamlHostingSection, System.Xa
+             306                1 System.Security.Cryptography.Xml.XmlDsigExcC14NTransform, Syste
+             306                1 System.Web.Services.Configuration.WebServicesSection, System.We
+             306                1 System.Web.Configuration.PartialTrustVisibleAssembliesSection,
+             308                1 System.ServiceModel.Configuration.ComContractsSection, System.S
+             310                1 System.Security.Cryptography.X509Certificates.X509KeyUsageExten
+             310                1 System.Security.Cryptography.Pkcs.Pkcs9DocumentDescription, Sys
+             310                1 System.Web.Configuration.ScriptingRoleServiceSection, System.We
+             312                1 System.Xml.Serialization.Configuration.SerializationSectionGrou
+             314                1 System.ServiceModel.Configuration.ProtocolMappingSection, Syste
+             314                1 System.ServiceModel.Configuration.CommonBehaviorsSection, Syste
+             316                1 System.Web.Configuration.ScriptingProfileServiceSection, System
+             316                1 System.Xaml.Hosting.Configuration.XamlHostingSectionGroup, Syst
+             318                1 System.ServiceModel.Activation.Configuration.NetTcpSection, Sys
+             318                1 System.Web.Configuration.SystemWebExtensionsSectionGroup, Syste
+             318                1 System.Runtime.Caching.Configuration.MemoryCacheSection, System
+             318                1 System.ServiceModel.Configuration.StandardEndpointsSection, Sys
+             318                1 System.ServiceModel.Configuration.ServiceModelSectionGroup, Sys
+             318                1 System.Xml.Serialization.Configuration.DateTimeSerializationSec
+             320                1 System.Web.Configuration.ScriptingWebServicesSectionGroup, Syst
+             320                1 System.ServiceModel.Activation.Configuration.NetPipeSection, Sy
+             320                1 System.Configuration.Internal.ConfigurationManagerInternal, Sys
+             320                1 System.Runtime.Caching.Configuration.CachingSectionGroup, Syste
+             322                1 System.Web.Configuration.ScriptingJsonSerializationSection, Sys
+             324                3 TestSwitch.LocalAppContext.DisableCaching
+             324                1 System.Security.Cryptography.Xml.XmlDsigC14NWithCommentsTransfo
+             324                1 System.Xml.Serialization.Configuration.SchemaImporterExtensions
+             326                1 System.ServiceModel.Activation.Configuration.DiagnosticSection,
+             326                1 System.Security.Cryptography.X509Certificates.X509EnhancedKeyUs
+             326                1 System.Security.Cryptography.X509Certificates.X509BasicConstrai
+             328                1 System.Security.Cryptography.Xml.XmlDsigEnvelopedSignatureTrans
+             330                1 System.Web.Configuration.ScriptingScriptResourceHandlerSection,
+             330                1 System.Web.Configuration.ScriptingAuthenticationServiceSection,
+             330                1 System.ServiceModel.Routing.Configuration.RoutingSection, Syste
+             330                1 System.Security.Cryptography.Xml.XmlDsigExcC14NWithCommentsTran
+             334                1 System.Security.Cryptography.X509Certificates.X509SubjectKeyIde
+             334                1 System.ServiceModel.Configuration.ServiceHostingEnvironmentSect
+             340                1 System.Transactions.Configuration.MachineSettingsSection, Syste
+             340                1 System.Transactions.Configuration.DefaultSettingsSection, Syste
+             344                1 System.Transactions.Configuration.TransactionsSectionGroup, Sys
+             356                1 System.Runtime.Serialization.Configuration.SerializationSection
+             360                1 System.ServiceModel.Activation.Configuration.ServiceModelActiva
+             362                1 System.ServiceModel.Activities.Tracking.Configuration.TrackingS
+             364                1 System.Runtime.Serialization.Configuration.DataContractSerializ
+             366                3 ASPSESSIONID=263c07a58a; SESSIONID=1552332971750
+             420                1 TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xKSBBcHBsZVdlYktpdC81MzcuMzY
+             460                1 ..User accounts for \\WIN-V8LCTQAJIEN....----------------------
+             472                1 0:en-US:<html>\n\ \ \ \ <head>\n\ \ \ \ \ \ \ \ <title>Hello\ W
+             490                1 eyJHVUlEIjoiMjYzYzA3YTU4YSIsIlR5cGUiOjIsIk1ldGEiOiIiLCJJViI6IkN
+             500                1 \r\nUser accounts for \\\\WIN-V8LCTQAJIEN\r\n\r\n--------------
+             520               10 52.44.115.131
+             532                1 <connectionStrings>..        <add name="LocalSqlServer" connect
+             552                1 {"status":"3","output":"\r\nUser accounts for \\\\WIN-V8LCTQAJI
+             558                9 52.44.115.131:8080
+             564                2 System.Configuration.AppSettingsSection, System.Configuration,
+             754                1 z4RtluLvOAvVFWYcAAHaqLvM8oDqCPHNQijR0O7clX/AKtGobLej1YWJloqDk8r
+             850                1
+             938                2 User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KH
+             946               26
+            1070                1 {"GUID":"263c07a58a","Type":0,"Meta":"e6ed272c3c","IV":"Ac2ZSit
+            1136                4 System.Data.Common.DbProviderConfigurationHandler, System.Data,
+            1174                1
+            1330                3 <html>\n\ \ \ \ <head>\n\ \ \ \ \ \ \ \ <title>Hello\ World!</t
+            1372               49
+            1418                1 eyJHVUlEIjoiMjYzYzA3YTU4YSIsIlR5cGUiOjAsIk1ldGEiOiJlNmVkMjcyYzN
+            1586                1 i=a19ea23062db990386a3a478cb89d52e&data=eyJHVUlEIjoiMjYzYzA3YTU
+            1598                1
+            1902                1 <configProtectedData defaultProvider="RsaProtectedConfiguration
+            2176                8 System.Configuration.IgnoreSection, System.Configuration, Versi
+            8288               37 <html>.    <head>.        <title>Hello World!</title>.    </hea
+           65108                1 rL0LfFxV8Th+7t33pmmTps2zTdI2adMkTdOmbVJaoNtk24Tm1WzSJOWRbpJts3S

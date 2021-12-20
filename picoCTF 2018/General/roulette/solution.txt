@@ -1,0 +1,2 @@
+Bug 1: Integer overflow when program does comparison with your current money amount, and when multiplying by 2
+Bug 2: Printing the seed of the pseudo-random number generator as your starting amount of money, used to predict the next roulette number

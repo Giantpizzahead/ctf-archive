@@ -1,0 +1,31 @@
+Google CTF 2019 (Beginner's Quest)
+
+Enter Space-Time Coordinates (misc) - CTF{welcome_to_googlectf}
+Open the executable file in Notepad.
+
+Ad (ad) - CTF{9e796ca74932912c216a1cd00c25c84fae00e139}
+The flag pops up for a single frame in the video (~0:17). Use the , and . keys to move to the previous and next frames in YouTube to find the frame with the flag (or just get really good at pausing).
+
+Satellite (networking) - CTF{4efcc72090af28fd33a2118985541f92e793477f}
+Run the program, use "Osmium" as the satellite name. Go to the Google Document from the config printout, and use a base64
+decoder to get a hint to use Wireshark. With Wireshark running, view the config again to find the unblocked password (which
+is the flag).
+
+Home Computer (forensics) - CTF{congratsyoufoundmycreds}
+Use 7-Zip to view the ntfs filesystem. Read the credentials.txt file to get hinted towards extended attributes. After researching extended attributes, you'll find that they are stored in "alternate streams". Luckily, 7-Zip displays these alternate streams, so right click on credentials.txt, and click Alternate Streams to find a hidden image file. Add the .png extension to FILE0 to get the flag.
+
+Work Computer (sandbox) - CTF{4ll_D474_5h4ll_B3_Fr33}
+Explore a bit (especially in the /bin directory), using --help to get more info about programs. You'll find "makemime", which
+can be used to get the contents of files in base64 format.
+
+FriendSpaceBook (reversing)
+Flag 1 - CTF{Peace_from_Cauli!}
+The program appears to find palindromic primes, and then XORs those with the constant numbers found in the program. I don't know what the 1, 99, and 765 are for, so I guess we'll have to find out!
+Actually, that value signifies which prime to start at. So, start at the K'th prime, and continue from there.
+Use an online program (integer sequence A002385) to generate these palindromic primes, and decode the message.
+You'll get the link: http://emoji-t0anaxnr3nacpt4na.web.ctfcompetition.com/humans_and_cauliflowers_network/
+On Amber's page, you get the flag!
+
+Drive to the target (coding) - CTF{Who_is_Tardis_Ormandy}
+Make a program that automatically drives to the target. Handle latitude and longitude separately for easier implementation (it'll take longer, but I had to eat dinner anyways xd)
+Refer to drivetothetarget.py for details.

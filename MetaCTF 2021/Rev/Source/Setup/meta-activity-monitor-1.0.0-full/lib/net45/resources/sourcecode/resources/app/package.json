@@ -1,0 +1,16 @@
+{
+  "name": "meta-activity-monitor",
+  "version": "1.0.0",
+  "description": "CPU activity monitor",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^3.0.2",
+    "electron-packager": "^15.3.0",
+    "electron-winstaller": "^5.0.0",
+    "electron-wix-msi": "^3.2.0"
+  }
+}

